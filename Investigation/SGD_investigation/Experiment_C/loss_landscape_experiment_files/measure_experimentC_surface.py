@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# Project author: Nairouz Mrabah
+# License: MIT for original project contributions (see LICENSE at the repository root).
+# Third-party code retains its original authorship and license.
+# See THIRD_PARTY_NOTICES.md at the repository root.
+
 """Experiment C — 2D local surfaces around SGD checkpoints.
 
 For a saved SGD checkpoint Theta_t, evaluate the local 2D loss surface

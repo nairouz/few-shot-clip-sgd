@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# Project author: Nairouz Mrabah
+# License: MIT for original project contributions (see LICENSE at the repository root).
+# Third-party code retains its original authorship and license.
+# See THIRD_PARTY_NOTICES.md at the repository root.
+
 r"""Experiment 3: few-shot vs full-data second moment in CLIP adaptation.
 
 This script is the diagonal-preconditioner analogue of the ECCV gradient-noise

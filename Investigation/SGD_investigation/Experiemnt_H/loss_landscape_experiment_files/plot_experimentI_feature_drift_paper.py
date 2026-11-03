@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# Project author: Nairouz Mrabah
+# License: MIT for original project contributions (see LICENSE at the repository root).
+# Third-party code retains its original authorship and license.
+# See THIRD_PARTY_NOTICES.md at the repository root.
+
 """Paper-ready plots for Experiment I — low-drift SGD trajectories.
 
 For each run, emits three dataset-specific figures:

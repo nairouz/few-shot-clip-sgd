@@ -1,3 +1,8 @@
+# Project author: Nairouz Mrabah
+# License: Apache-2.0; the original SPDX notice is preserved below.
+# See licenses/GaLore-Apache-2.0.txt at the repository root for the license text.
+# See THIRD_PARTY_NOTICES.md at the repository root.
+
 # SPDX-License-Identifier: Apache-2.0
 # Author : 2025 — feel free to reuse / adapt.
 

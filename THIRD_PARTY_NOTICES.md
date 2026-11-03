@@ -1,6 +1,6 @@
 # Third-party notices
 
-The release preserves the supplied source headers and credits. It does not assign a new blanket license to the authors' original code. The following license texts are included for the corresponding third-party components and their upstream material.
+Original project contributions by Nairouz Mrabah are licensed under the [MIT License](LICENSE). The release preserves the supplied source headers and credits. Third-party code retains its original authorship and license terms. The project-author header identifies Nairouz Mrabah as the author of this project, not as the original author of bundled third-party code. The following license texts apply to the corresponding third-party components and their upstream material.
 
 | Component | Location | Upstream reference | Included terms |
 | --- | --- | --- | --- |

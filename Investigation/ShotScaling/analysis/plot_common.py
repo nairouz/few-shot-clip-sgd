@@ -1,3 +1,8 @@
+# Project author: Nairouz Mrabah
+# License: MIT for original project contributions (see LICENSE at the repository root).
+# Third-party code retains its original authorship and license.
+# See THIRD_PARTY_NOTICES.md at the repository root.
+
 from pathlib import Path
 import matplotlib.pyplot as plt
 def shot_plot(frame,y,out,title):

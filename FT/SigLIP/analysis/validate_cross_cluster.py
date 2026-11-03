@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# Project author: Nairouz Mrabah
+# License: MIT for original project contributions (see LICENSE at the repository root).
+# Third-party code retains its original authorship and license.
+# See THIRD_PARTY_NOTICES.md at the repository root.
+
 """Verify source SHA, model revision, pairing, and collected checksums."""
 
 from __future__ import annotations

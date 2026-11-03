@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# Project author: Nairouz Mrabah
+# License: MIT for original project contributions (see LICENSE at the repository root).
+# Third-party code retains its original authorship and license.
+# See THIRD_PARTY_NOTICES.md at the repository root.
+
 import argparse,pandas as pd,matplotlib.pyplot as plt
 if __name__=="__main__":
  p=argparse.ArgumentParser();p.add_argument("csv");p.add_argument("--x",required=True);p.add_argument("--y",default="raw_gap");p.add_argument("--out",required=True);a=p.parse_args();d=pd.read_csv(a.csv)

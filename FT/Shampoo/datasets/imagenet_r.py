@@ -1,3 +1,9 @@
+# Project author: Nairouz Mrabah
+# License: MIT for original project contributions (see LICENSE at the repository root).
+# Upstream dataset code: CoOp; MIT (see licenses/CoOp-MIT.txt).
+# Third-party code retains its original authorship and license.
+# See THIRD_PARTY_NOTICES.md at the repository root.
+
 # datasets/imagenet_r.py
 import os, glob, os.path as osp
 from .utils import DatasetBase, Datum, listdir_nohidden

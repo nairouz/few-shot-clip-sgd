@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# Project author: Nairouz Mrabah
+# License: MIT for original project contributions (see LICENSE at the repository root).
+# Third-party code retains its original authorship and license.
+# See THIRD_PARTY_NOTICES.md at the repository root.
+
 """Stage exactly one P5 dataset archive into ``$SLURM_TMPDIR/datasets``."""
 
 from __future__ import annotations

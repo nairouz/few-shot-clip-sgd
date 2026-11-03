@@ -1,3 +1,8 @@
+# Project author: Nairouz Mrabah
+# License: Apache-2.0 (see licenses/GaLore-Apache-2.0.txt at the repository root).
+# Upstream component: GaLore; original authorship and notices are preserved.
+# See THIRD_PARTY_NOTICES.md at the repository root.
+
 import torch
 from tensorly.decomposition import tucker
 from tensorly import tenalg 

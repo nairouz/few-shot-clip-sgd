@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# Project author: Nairouz Mrabah
+# License: MIT for original project contributions (see LICENSE at the repository root).
+# Third-party code retains its original authorship and license.
+# See THIRD_PARTY_NOTICES.md at the repository root.
+
 set -euo pipefail
 
 python second_moment_experiment_files/measure_second_moment.py \
