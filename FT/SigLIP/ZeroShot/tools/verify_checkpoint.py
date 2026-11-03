@@ -25,7 +25,7 @@ def main():
         "--manifest",
         default=str(
             Path(__file__).resolve().parents[2]
-            / "P5_Checkpoint"
+            / "checkpoint"
             / "checkpoint_manifest.json"
         ),
     )

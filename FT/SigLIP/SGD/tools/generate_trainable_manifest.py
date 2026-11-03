@@ -35,7 +35,7 @@ def main():
     enable_dense_transformer_blocks(adapter)
     manifest = trainable_parameter_manifest(adapter)
     root = Path(args.siglip_root)
-    for folder in ("P5_DenseSGD", "P5_Adam", "P5_AdamM0"):
+    for folder in ("SGD", "Adam", "AdamM0"):
         atomic_json(root / folder / "trainable_parameters.json", manifest)
     print(
         json.dumps(

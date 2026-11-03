@@ -2,7 +2,7 @@ from pathlib import Path
 import json, hashlib
 import numpy as np
 import pandas as pd
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 B=ROOT/'results/inputs'
 O=ROOT/'results/generated'
 O.mkdir(parents=True,exist_ok=True)

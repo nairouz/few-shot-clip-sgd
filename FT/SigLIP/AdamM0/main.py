@@ -74,7 +74,7 @@ def _git_commit():
 
 
 def _checkpoint_manifest_path() -> Path:
-    return Path(__file__).resolve().parents[1] / "P5_Checkpoint" / "checkpoint_manifest.json"
+    return Path(__file__).resolve().parents[1] / "checkpoint" / "checkpoint_manifest.json"
 
 
 def _verify_checkpoint(model_dir: Path, manifest):

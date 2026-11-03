@@ -1,7 +1,7 @@
 from pathlib import Path
 import hashlib,json
 import pandas as pd,numpy as np
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 T=ROOT/'results/inputs'; Q=ROOT/'results/generated'; O=Q/'manuscript_rows'
 O.mkdir(parents=True,exist_ok=True)
 manifest=[]

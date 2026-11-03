@@ -1,8 +1,8 @@
 # Reproducing the experiments
 
-## Scope of this release
+## Implementations
 
-The source follows the supplied experimental implementation. The main benchmark and the diagnostic experiments have different entry points and configurations. In `FT/SGD/train.py` and `FT/Adam/train.py`, `mark_as_trainable` activates attention weight matrices and the two MLP weight matrices of the selected transformer blocks. With `--encoder both --position all`, these matrices are trained in every block of both encoders. Biases, normalization parameters, embeddings, final projection matrices, and logit scale remain frozen. This is the precise implementation of dense transformer-weight adaptation used by these entry points.
+The main CLIP benchmark, shot-scaling experiments, SigLIP adaptation, and optimizer diagnostics have distinct entry points and configurations. [EXPERIMENTS.md](EXPERIMENTS.md) and [RESULTS.md](RESULTS.md) connect the training code, numerical exports, and table calculations. In `FT/SGD/train.py` and `FT/Adam/train.py`, `mark_as_trainable` activates attention weight matrices and the two MLP weight matrices of the selected transformer blocks. With `--encoder both --position all`, these matrices are trained in every block of both encoders. Biases, normalization parameters, embeddings, final projection matrices, and logit scale remain frozen. This is the precise implementation of dense transformer-weight adaptation used by these entry points.
 
 The SGD entry point constructs `torch.optim.SGD` with its default zero momentum and zero weight decay. The Adam entry point uses `torch.optim.Adam`. The three AdamW directories encode weight decay in their names. The methods retain their individual argument parsers and training loops.
 
@@ -10,11 +10,11 @@ The SGD entry point constructs `torch.optim.SGD` with its default zero momentum 
 
 `requirements.txt` lists imported third-party packages. It is not a version lockfile. A compatible CUDA PyTorch / torchvision installation is needed by the training and GPU-memory profiling code. Dependencies and pretrained weights must be available before an experiment starts. The local CLIP loader downloads weights when they are absent from its cache.
 
-The command-line `--root_path` option points to the dataset parent directory. `DATASETS_ROOT`, when set, takes precedence in the supplied `resolve_root` helper. `CLIP_DOWNLOAD_ROOT` configures the diagnostic cache loaders and the Adam benchmark loader. The other benchmark loaders retain CLIP's default `~/.cache/clip` location. [DATASETS.md](DATASETS.md) lists the expected directory names and annotations.
+The command-line `--root_path` option points to the dataset parent directory. `DATASETS_ROOT`, when set, takes precedence in the `resolve_root` helper. `CLIP_DOWNLOAD_ROOT` configures the diagnostic cache loaders and the Adam benchmark loader. The other benchmark loaders retain CLIP's default `~/.cache/clip` location. [DATASETS.md](DATASETS.md) lists the expected directory names and annotations.
 
 ## Isolated benchmark runs
 
-The launcher in `scripts/run_experiment.py` invokes the supplied `main.py` with a distinct working directory. This separation matters because original result and checkpoint filenames identify the method, backbone, shot count, and seed, but do not always include the learning rate. Each learning-rate trial therefore needs a different `--output-dir`.
+The launcher in `scripts/run_experiment.py` invokes the selected `main.py` with a distinct working directory. This separation matters because original result and checkpoint filenames identify the method, backbone, shot count, and seed, but do not always include the learning rate. Each learning-rate trial therefore needs a different `--output-dir`.
 
 ```bash
 python scripts/run_experiment.py \
@@ -40,7 +40,7 @@ python scripts/run_experiment.py \
   --encoder both --position all --optimizer Adam --rank 2 --use_aug
 ```
 
-The LoRA code is the supplied historical implementation. Its zero-dropout linear path uses temporary weight merging during the forward pass. It has been retained to preserve experiment provenance. Changing its forward computation would constitute a different implementation and would require a separate numerical comparison.
+The LoRA zero-dropout linear path uses temporary weight merging during the forward pass. This behavior is part of the evaluated implementation; a replacement forward computation would require a separate numerical comparison.
 
 The launcher also supports the remaining methods listed by `python scripts/run_experiment.py --help`. Method-specific options are documented by each method's `main.py --help` after installation. The zero-shot parser does not accept training-only flags such as `--shots`, `--lr`, or `--max_epochs`.
 
@@ -48,7 +48,7 @@ The launcher also supports the remaining methods listed by `python scripts/run_e
 
 The paper's primary comparison covers seeds 1, 2, and 3; shots 1, 2, 4, 8, and 16; and CLIP ViT-B/16, ViT-B/32, and ViT-L/14. The main comparison uses learning rate `1e-4`. The robustness grid contains `1e-2`, `1e-3`, `1e-4`, and `1e-5`. Main runs use 30 epochs and batch size 64. Longer trajectories use `--max_epochs 300` with the experiment-specific setting reported in the paper.
 
-For non-ImageNet datasets, `--use_aug` enables the supplied random resized crop and horizontal flip. Without it, those loaders use CLIP preprocessing. The supplied ImageNet loader defines its training augmentation internally. Its behavior is therefore not switched by the main script's `--use_aug` flag.
+For non-ImageNet datasets, `--use_aug` enables random resized crop and horizontal flip. Without it, those loaders use CLIP preprocessing. The ImageNet loader defines its training augmentation internally. Its behavior is therefore not switched by the main script's `--use_aug` flag.
 
 The benchmark scripts report final-checkpoint results. The main SGD and Adam loops set `VALIDATION = False`; they do not perform a validation-based learning-rate or checkpoint search. Result aggregation and any selection used for a particular paper table must follow that table's documented protocol. Test accuracy files alone do not provide an independent validation-selection record.
 
@@ -60,6 +60,12 @@ An isolated run contains `run_command.json`, `console.log`, the implementation's
 
 [EXPERIMENTS.md](EXPERIMENTS.md) maps every diagnostic package to its measurement script. Full-support training is an explicit diagnostic option, `--full_support_train`. It is distinct from the minibatch benchmark. Reference-set caps, second-moment estimators, checkpoint schedules, and update budgets are experiment-specific.
 
-## Validation of this release
+## Shot scaling, SigLIP, and numerical tables
 
-`python scripts/validate_source.py` checks Python syntax and benchmark entry-point presence without importing dependencies. The release also checks launcher command construction and local documentation paths. These checks do not constitute a dataset-dependent reproduction or a GPU benchmark. No new accuracy measurements are claimed by this release.
+[Shot scaling](../Investigation/ShotScaling/README.md) uses SGD, Adam, and Adam-M0 across six datasets and five shot levels. [SigLIP adaptation](../FT/SigLIP/README.md) provides separate SGD, Adam, Adam-M0, and zero-shot entry points with a pinned local model snapshot. These experiment-specific parsers are documented in their guides.
+
+The numerical inputs are in [`results/inputs/`](../results/inputs/). The [table-generation commands](RESULTS.md) read these files and write [`results/generated/`](../results/generated/). Training-run output directories remain separate from those curated inputs and tables.
+
+## Source checks
+
+`python scripts/validate_source.py` checks Python syntax and benchmark entry-point presence without importing dependencies. The launcher's `--dry-run` option checks command construction without starting training. These checks do not execute the dataset-dependent training or GPU profiling code.

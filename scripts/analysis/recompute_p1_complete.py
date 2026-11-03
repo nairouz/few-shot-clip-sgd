@@ -5,7 +5,7 @@ import itertools
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 INPUT = ROOT / 'results/inputs'
 OUTPUT = ROOT / 'results/generated'
 ROWS = OUTPUT / 'manuscript_rows'

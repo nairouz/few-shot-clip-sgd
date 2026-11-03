@@ -1,16 +1,16 @@
 # Diagnostic experiments
 
-The diagnostic source is grouped under `Investigation/`. Each experiment directory contains its own CLIP and dataset modules. The historical folder names are retained because they identify the submitted experiment packages. The scientific purpose is determined by the measurement script, rather than by a folder letter alone.
+The optimizer and geometry diagnostics are grouped under `Investigation/`. Each directory contains its measurement code and local CLIP and dataset modules. [Shot scaling](../Investigation/ShotScaling/README.md) and [SigLIP adaptation](../FT/SigLIP/README.md) combine training comparisons with preconditioning diagnostics. The [results guide](RESULTS.md) links their numerical exports and table-generation commands.
 
 ## Experiment index
 
-The folder names and historical script experiment letters are not always the same. The following table preserves the submitted folder names and reports actual measurement entry points after removal of any one enclosing wrapper directory.
+The tables below map directories relative to `Investigation/` to their measurement entry points and scientific purpose.
 
 ### Adam diagnostics
 
 All measurement files below are inside `second_moment_experiment_files/`.
 
-| Submitted folder | Measurement entry point | Scientific purpose | Distinguishing options |
+| Directory | Measurement entry point | Scientific purpose | Distinguishing options |
 | --- | --- | --- | --- |
 | `Adam_investigation/Experiment_1` | `measure_second_moment.py` | Few-shot versus reference second-moment calibration along a training trajectory | `--ref_mode full_train`, `--v_estimator`, `--traj_optimizer` |
 | `Adam_investigation/Experiment_2` | `measure_second_moment.py` | Initialization-only audit before an optimizer update | `--init_only_audit` |
@@ -21,15 +21,13 @@ All measurement files below are inside `second_moment_experiment_files/`.
 | `Adam_investigation/Experiment_7` | `measure_feature_drift.py` | Parameter, image-feature, text-feature, and related drift along SGD/Adam trajectories | `--traj_optimizer`, `--diag_every` |
 | `Adam_investigation/Experiment_8` | `measure_experiment7_temporal_staleness.py` | Temporal autocorrelation and future full-data alignment of few-shot gradients | `--lags`, `--history_dtype` |
 
-The archived wrappers have been removed so each experiment is directly browsable.
-
-The Adam-diagnostic entry points support `--root_path`, `--dataset`, `--shots`, `--backbone`, `--seed`, `--lr`, `--max_epochs`, `--encoder`, `--position`, `--full_support_train`, `--out_dir`, and `--run_name`. Full-support training is an explicit option. It must not be described as the ordinary minibatch benchmark protocol. Reference-set caps, estimator definitions, and diagnostic-batch sizes must follow the intended experiment configuration.
+The Adam-diagnostic entry points support `--root_path`, `--dataset`, `--shots`, `--backbone`, `--seed`, `--lr`, `--max_epochs`, `--encoder`, `--position`, `--full_support_train`, `--out_dir`, and `--run_name`. Full-support training is an explicit diagnostic option with a different update schedule from the minibatch benchmark. Reference-set caps, estimator definitions, and diagnostic-batch sizes are specific to each experiment.
 
 ### SGD geometry diagnostics
 
 All measurement files below are inside `loss_landscape_experiment_files/`.
 
-| Submitted folder | Measurement entry point | Scientific purpose |
+| Directory | Measurement entry point | Scientific purpose |
 | --- | --- | --- |
 | `SGD_investigation/Experiment_A` | `measure_experimentA_interpolation.py` | One-dimensional interpolation from pretrained initialization to the final SGD checkpoint |
 | `SGD_investigation/Experiment_B` | `measure_experimentB_localstep.py` | Local loss curves along the actual SGD update, with optional random and Hessian-direction probes |
@@ -44,16 +42,14 @@ All measurement files below are inside `loss_landscape_experiment_files/`.
 | `SGD_investigation/Experiment_I3` | `measure_experimentJ_noise_scale.py` | Adds example-matched stochasticity comparisons |
 | `SGD_investigation/Experiment_I4` | `measure_experimentJ_noise_scale.py` | Adds joint update-and-example matching through resampling and gradient accumulation |
 
-The submitted misspelling `Experiemnt` is preserved in the table because it is part of the path. Common archive wrappers have been removed.
-
 The SGD geometry scripts generally use ViT-B/16, one shot, both encoders, and checkpoint epochs `0,1,2,5,10,20,30` by default. Most require `--full_support_train` for the documented full-support protocol. Their input flags use `--root_path`, `--dataset`, `--shots`, `--backbone`, `--lr`, `--max_epochs`, and `--out_dir`. Connectivity uses `--seeds` instead of `--seed`. Surface generation takes `--checkpoints_logdir`, `--checkpoint_epoch`, and `--probe`; the probe choices are `hessian`, `random`, `fullgrad`, and `adam`.
 
-`Experiment_I4` accepts four `--budget_protocol` values: `epoch_matched`, `update_matched`, `example_matched`, and `update_example_matched`. Its default remains `epoch_matched`. The I4 folder alone does not imply the joint-matching configuration was selected.
+`Experiment_I4` accepts four `--budget_protocol` values: `epoch_matched`, `update_matched`, `example_matched`, and `update_example_matched`. Its default remains `epoch_matched`. The joint-matching comparison uses `--budget_protocol update_example_matched`.
 
 
 ## Example: first-step matching
 
-The following command exposes the argument interface for the supplied first-step matching diagnostic after dependencies have been installed:
+The following command exposes the first-step matching diagnostic arguments after dependency installation:
 
 ```bash
 cd Investigation/Adam_investigation/Experiment_6
@@ -66,4 +62,4 @@ Its relevant options include `--match_first_step_to_optimizer SGD` and `--match_
 
 Measurement scripts produce CSV, JSON, and, for some geometry experiments, NPZ files. Their companion `plot_*.py` scripts generate figures. Dataset paths, output paths, reference budgets, and stochasticity controls are explicit command-line options.
 
-The original experiment source is retained. Bytecode and dependency stubs have been omitted. Dataset defaults and username-dependent model-cache routing have been made portable. No diagnostic result was recomputed during preparation of this release.
+The benchmark and diagnostic entry points have different update budgets and reference-set definitions. Their configurations determine the applicable comparison. [REPRODUCING.md](REPRODUCING.md) describes execution and output handling.

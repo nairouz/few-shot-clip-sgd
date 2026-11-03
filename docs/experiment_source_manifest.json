@@ -20,7 +20,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/aggregate.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/aggregate.py",
+      "destination": "Investigation/ShotScaling/analysis/aggregate.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "7b921422bac8847f11cedc11611e159fde92928182f062a213cbd48981fa0051",
@@ -30,7 +30,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/bootstrap.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/bootstrap.py",
+      "destination": "Investigation/ShotScaling/analysis/bootstrap.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "2263d15405592bf2dbdd1f9343d605a1a74f6d3dc304a42267ec78abe124d42d",
@@ -40,7 +40,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/completeness.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/completeness.py",
+      "destination": "Investigation/ShotScaling/analysis/completeness.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "b39ea82aa896dc6845b8cd59968e0a2d7b68a90b952cf395963c480c0887aeef",
@@ -50,7 +50,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/correlations.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/correlations.py",
+      "destination": "Investigation/ShotScaling/analysis/correlations.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "fce072c1a40f70491b2bd86e21d05645159ad65fcc13875b86d58e8f07ab0377",
@@ -60,7 +60,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/plot_accuracy_gap.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/plot_accuracy_gap.py",
+      "destination": "Investigation/ShotScaling/analysis/plot_accuracy_gap.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "b5916aa9fe9018142de4645b244edd061e53342407df820d85244cbfcf785a62",
@@ -70,7 +70,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/plot_bridge.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/plot_bridge.py",
+      "destination": "Investigation/ShotScaling/analysis/plot_bridge.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "b5916aa9fe9018142de4645b244edd061e53342407df820d85244cbfcf785a62",
@@ -80,7 +80,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/plot_budget_scaling.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/plot_budget_scaling.py",
+      "destination": "Investigation/ShotScaling/analysis/plot_budget_scaling.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "b5916aa9fe9018142de4645b244edd061e53342407df820d85244cbfcf785a62",
@@ -90,7 +90,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/plot_common.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/plot_common.py",
+      "destination": "Investigation/ShotScaling/analysis/plot_common.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "81a32cc7a94aad3032610c0b469b9324165a171d7f649f66a52de1db6318f544",
@@ -100,7 +100,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/plot_diag_batch_sensitivity.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/plot_diag_batch_sensitivity.py",
+      "destination": "Investigation/ShotScaling/analysis/plot_diag_batch_sensitivity.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "b5916aa9fe9018142de4645b244edd061e53342407df820d85244cbfcf785a62",
@@ -110,7 +110,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/plot_mismatch_gap_scatter.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/plot_mismatch_gap_scatter.py",
+      "destination": "Investigation/ShotScaling/analysis/plot_mismatch_gap_scatter.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "e7069ca9a644a0a6dc6f9ee805e2e1c53d323d001d680b5c53dc822ad09a6857",
@@ -120,7 +120,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/plot_scope_breakdown.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/plot_scope_breakdown.py",
+      "destination": "Investigation/ShotScaling/analysis/plot_scope_breakdown.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "b5916aa9fe9018142de4645b244edd061e53342407df820d85244cbfcf785a62",
@@ -130,7 +130,7 @@
     },
     {
       "source": "P2_ShotScaling/analysis/plot_shot_scaling.py",
-      "destination": "Rebuttal/P2_ShotScaling/analysis/plot_shot_scaling.py",
+      "destination": "Investigation/ShotScaling/analysis/plot_shot_scaling.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "8dbb09064b7edc58a0f0dbce5ba273f393a7321b411a559e7691a1e9e64ab02d",
@@ -140,7 +140,7 @@
     },
     {
       "source": "P2_ShotScaling/clip/__init__.py",
-      "destination": "Rebuttal/P2_ShotScaling/clip/__init__.py",
+      "destination": "Investigation/ShotScaling/clip/__init__.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d7930eb290ebed432116795c91473200d098451a94c0aedd4ae0f934f97955e8",
@@ -150,7 +150,7 @@
     },
     {
       "source": "P2_ShotScaling/clip/bpe_simple_vocab_16e6.txt.gz",
-      "destination": "Rebuttal/P2_ShotScaling/clip/bpe_simple_vocab_16e6.txt.gz",
+      "destination": "Investigation/ShotScaling/clip/bpe_simple_vocab_16e6.txt.gz",
       "action": "retained",
       "changes": [],
       "source_sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
@@ -160,7 +160,7 @@
     },
     {
       "source": "P2_ShotScaling/clip/clip.py",
-      "destination": "Rebuttal/P2_ShotScaling/clip/clip.py",
+      "destination": "Investigation/ShotScaling/clip/clip.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "c251372dbf6c7c53a3925c778bff0f04507393d2c26458f86a11d45e58e5bbb0",
@@ -170,7 +170,7 @@
     },
     {
       "source": "P2_ShotScaling/clip/model.py",
-      "destination": "Rebuttal/P2_ShotScaling/clip/model.py",
+      "destination": "Investigation/ShotScaling/clip/model.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "893a14b05c148f27fc1f1ce524c794e0250b9a5d48c57e2db03e298e1f331ac3",
@@ -180,7 +180,7 @@
     },
     {
       "source": "P2_ShotScaling/clip/simple_tokenizer.py",
-      "destination": "Rebuttal/P2_ShotScaling/clip/simple_tokenizer.py",
+      "destination": "Investigation/ShotScaling/clip/simple_tokenizer.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "44bb1817a8152a24e54daa9f025c1aecbcb44b1e59e4ccd28e353d0a7fcfabb0",
@@ -190,7 +190,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/__init__.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/__init__.py",
+      "destination": "Investigation/ShotScaling/datasets/__init__.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9c1b9039c4e9da3af4da2ac5086a81903a94f9ae1d87860c78c03c20c44cb590",
@@ -200,7 +200,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/caltech101.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/caltech101.py",
+      "destination": "Investigation/ShotScaling/datasets/caltech101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3dd65c11f7dd0b9578721aa0ad95576a39f622bff644fb3645cef8e0a03f6279",
@@ -210,7 +210,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/dtd.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/dtd.py",
+      "destination": "Investigation/ShotScaling/datasets/dtd.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "6400f654ecd3e008d4425d36c83960c400f9fa96a0f6c376f5a8164c47164472",
@@ -220,7 +220,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/eurosat.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/eurosat.py",
+      "destination": "Investigation/ShotScaling/datasets/eurosat.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "36ff672b9ea6ab6dab3c9952e3cd5b940e38e01ba73421e1b250e1f90c733f3d",
@@ -230,7 +230,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/fgvc.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/fgvc.py",
+      "destination": "Investigation/ShotScaling/datasets/fgvc.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "1d7a5606eff0f855ce9298b3df7ff310915a0e719bf61ce631eccafca8601318",
@@ -240,7 +240,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/food101.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/food101.py",
+      "destination": "Investigation/ShotScaling/datasets/food101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "e12661adbbabbb060142ff1feb4c08522ef8dd56b971728515f1a894f313a98e",
@@ -250,7 +250,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/imagenet.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/imagenet.py",
+      "destination": "Investigation/ShotScaling/datasets/imagenet.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "43bacd42032424d1f6bebfad0bf0879aecaaa6987c8425b56ff3235489e911b6",
@@ -260,7 +260,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/imagenet_a.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/imagenet_a.py",
+      "destination": "Investigation/ShotScaling/datasets/imagenet_a.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "43a154ef0e05fb33f7615366f8b358810df5b50c64ed5c6f0251b68812dab164",
@@ -270,7 +270,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/imagenet_r.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/imagenet_r.py",
+      "destination": "Investigation/ShotScaling/datasets/imagenet_r.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "6b4cc6e27eeda3deea19e9319a08064f194216b302acc7d4e034c0c6faf7d39a",
@@ -280,7 +280,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/imagenet_sketch.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/imagenet_sketch.py",
+      "destination": "Investigation/ShotScaling/datasets/imagenet_sketch.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d6e74c768565dca1e4bd56f7c86bffa25204e7abd2492917f4e2d2775913f385",
@@ -290,7 +290,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/imagenet_v2.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/imagenet_v2.py",
+      "destination": "Investigation/ShotScaling/datasets/imagenet_v2.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3d8f6dee7673d9d6f587d3cfdf5f604fd0d22a0b7035344dc1f42d3876f1dd7c",
@@ -300,7 +300,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/oxford_flowers.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/oxford_flowers.py",
+      "destination": "Investigation/ShotScaling/datasets/oxford_flowers.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "a8b0068f136bc6925d50e697034982ec982c1e43d867f5e469899b21e43dc280",
@@ -310,7 +310,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/oxford_pets.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/oxford_pets.py",
+      "destination": "Investigation/ShotScaling/datasets/oxford_pets.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "c71935091e0b603fdfcf2f1aeb1e564e658b95fddbb56f66830896895b4acc44",
@@ -320,7 +320,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/stanford_cars.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/stanford_cars.py",
+      "destination": "Investigation/ShotScaling/datasets/stanford_cars.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3920091beafbbc6a0c86bd9a6d22a0f935a1971daeb9f12aceb4057efe6cb936",
@@ -330,7 +330,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/sun397.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/sun397.py",
+      "destination": "Investigation/ShotScaling/datasets/sun397.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "0f0bcb09debf833f9d6c002dcef2cfa181ba8522682fc33d353bdf83368104c0",
@@ -340,7 +340,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/ucf101.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/ucf101.py",
+      "destination": "Investigation/ShotScaling/datasets/ucf101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "ec5b405de8714535a35666224fe39f4be109998b6c289508060fd356cdd60226",
@@ -350,7 +350,7 @@
     },
     {
       "source": "P2_ShotScaling/datasets/utils.py",
-      "destination": "Rebuttal/P2_ShotScaling/datasets/utils.py",
+      "destination": "Investigation/ShotScaling/datasets/utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9d2af5161112e35202824eb9236de6df57e6d155b339d4fd1d0e04f8d2ff7ea2",
@@ -360,7 +360,7 @@
     },
     {
       "source": "P2_ShotScaling/main.py",
-      "destination": "Rebuttal/P2_ShotScaling/main.py",
+      "destination": "Investigation/ShotScaling/main.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "26201df58fd194b6f63115e685a9c7c54a7ba782b7f6b50853e8df3022d822b2",
@@ -378,7 +378,7 @@
     {
       "source": "P2_ShotScaling/orchestration/build_manifest.py",
       "action": "retained",
-      "destination": "Rebuttal/P2_ShotScaling/orchestration/build_manifest.py",
+      "destination": "Investigation/ShotScaling/orchestration/build_manifest.py",
       "source_sha256": "7de7e01696b64129f5f9d1cb2681258493266a79936eaa6088f07937f4cda54d",
       "release_sha256": "7de7e01696b64129f5f9d1cb2681258493266a79936eaa6088f07937f4cda54d",
       "changes": [],
@@ -422,7 +422,7 @@
     },
     {
       "source": "P2_ShotScaling/p2/__init__.py",
-      "destination": "Rebuttal/P2_ShotScaling/p2/__init__.py",
+      "destination": "Investigation/ShotScaling/p2/__init__.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "b5040f8152a8bbe4d3bc55aa1904d63e2669ae2d76d15e6e83b29e64cdd9a3f4",
@@ -432,7 +432,7 @@
     },
     {
       "source": "P2_ShotScaling/p2/completion.py",
-      "destination": "Rebuttal/P2_ShotScaling/p2/completion.py",
+      "destination": "Investigation/ShotScaling/p2/completion.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9bd827246b3035813b2aa42edcc60a773a2d25bff67e35222905d7b21f94ea32",
@@ -442,7 +442,7 @@
     },
     {
       "source": "P2_ShotScaling/p2/diagnostic_sampler.py",
-      "destination": "Rebuttal/P2_ShotScaling/p2/diagnostic_sampler.py",
+      "destination": "Investigation/ShotScaling/p2/diagnostic_sampler.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "22461603e1b6a46080e8e81aa26fa176e27ae1a0ae7e5b2071fdefcce580d975",
@@ -452,7 +452,7 @@
     },
     {
       "source": "P2_ShotScaling/p2/environment.py",
-      "destination": "Rebuttal/P2_ShotScaling/p2/environment.py",
+      "destination": "Investigation/ShotScaling/p2/environment.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d319ccc85ead4890e7fece48e8f209d961d8071051183dc82ebcbd5da257882d",
@@ -462,7 +462,7 @@
     },
     {
       "source": "P2_ShotScaling/p2/logging_utils.py",
-      "destination": "Rebuttal/P2_ShotScaling/p2/logging_utils.py",
+      "destination": "Investigation/ShotScaling/p2/logging_utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "f8df01fcf323a6a324309108305517747998cdfab3864cb65257de3882fd83a4",
@@ -472,7 +472,7 @@
     },
     {
       "source": "P2_ShotScaling/p2/moment_estimation.py",
-      "destination": "Rebuttal/P2_ShotScaling/p2/moment_estimation.py",
+      "destination": "Investigation/ShotScaling/p2/moment_estimation.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "cecbf72061cee8a91455cc67f1defb69b2881c626e68a0d4d3e0d64289950a72",
@@ -482,7 +482,7 @@
     },
     {
       "source": "P2_ShotScaling/p2/optimizer_variants.py",
-      "destination": "Rebuttal/P2_ShotScaling/p2/optimizer_variants.py",
+      "destination": "Investigation/ShotScaling/p2/optimizer_variants.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "8a72ea950d88db27e14f521fe45f79e45d47b77823dc1383e539aa454d5f8010",
@@ -492,7 +492,7 @@
     },
     {
       "source": "P2_ShotScaling/p2/progress.py",
-      "destination": "Rebuttal/P2_ShotScaling/p2/progress.py",
+      "destination": "Investigation/ShotScaling/p2/progress.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "0d8054a959db24cd943a80984e0d13093dc45ec2e9f132a9fa40ab60c8f8a4e8",
@@ -502,7 +502,7 @@
     },
     {
       "source": "P2_ShotScaling/p2/scopes.py",
-      "destination": "Rebuttal/P2_ShotScaling/p2/scopes.py",
+      "destination": "Investigation/ShotScaling/p2/scopes.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "96cf2bbbb965028bcd45ba09059ddae4ec9ab08f2ec95f764c0aae2b86a8280b",
@@ -512,7 +512,7 @@
     },
     {
       "source": "P2_ShotScaling/p2/support_manifest.py",
-      "destination": "Rebuttal/P2_ShotScaling/p2/support_manifest.py",
+      "destination": "Investigation/ShotScaling/p2/support_manifest.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "e31ee403bda5b797ce094bd72636796b99d905bff1f7cc5ca67ed9132eb9dfb4",
@@ -522,7 +522,7 @@
     },
     {
       "source": "P2_ShotScaling/p2/update_budget.py",
-      "destination": "Rebuttal/P2_ShotScaling/p2/update_budget.py",
+      "destination": "Investigation/ShotScaling/p2/update_budget.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "96206602fc84bae4d307f0d9d8170455bc97aac0e37fd09f00431e72fdb4ca08",
@@ -532,7 +532,7 @@
     },
     {
       "source": "P2_ShotScaling/run_utils.py",
-      "destination": "Rebuttal/P2_ShotScaling/run_utils.py",
+      "destination": "Investigation/ShotScaling/run_utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "8623595125bd581988040f3322492a98245f21728308b62bcc9fce284be8fbda",
@@ -556,7 +556,7 @@
     },
     {
       "source": "P2_ShotScaling/train.py",
-      "destination": "Rebuttal/P2_ShotScaling/train.py",
+      "destination": "Investigation/ShotScaling/train.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d7dd5d02dcfb2920d3d7d47197294cfc3d13c36904a3756595edd7f807532459",
@@ -566,7 +566,7 @@
     },
     {
       "source": "P2_ShotScaling/utils.py",
-      "destination": "Rebuttal/P2_ShotScaling/utils.py",
+      "destination": "Investigation/ShotScaling/utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "314a499550086a423b3db4f74618c64b9968c633f2bd5149d159655524f77b33",
@@ -583,7 +583,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/completion.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/completion.py",
+      "destination": "FT/SigLIP/Adam/completion.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "bbcaeabe03e58a8a2d84e8a8be8f066ee09ae0c7d4271bd6074ffb4afad7f0b5",
@@ -593,7 +593,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/__init__.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/__init__.py",
+      "destination": "FT/SigLIP/Adam/datasets/__init__.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9c1b9039c4e9da3af4da2ac5086a81903a94f9ae1d87860c78c03c20c44cb590",
@@ -603,7 +603,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/caltech101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/caltech101.py",
+      "destination": "FT/SigLIP/Adam/datasets/caltech101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3dd65c11f7dd0b9578721aa0ad95576a39f622bff644fb3645cef8e0a03f6279",
@@ -613,7 +613,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/dtd.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/dtd.py",
+      "destination": "FT/SigLIP/Adam/datasets/dtd.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "6400f654ecd3e008d4425d36c83960c400f9fa96a0f6c376f5a8164c47164472",
@@ -623,7 +623,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/eurosat.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/eurosat.py",
+      "destination": "FT/SigLIP/Adam/datasets/eurosat.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "36ff672b9ea6ab6dab3c9952e3cd5b940e38e01ba73421e1b250e1f90c733f3d",
@@ -633,7 +633,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/fgvc.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/fgvc.py",
+      "destination": "FT/SigLIP/Adam/datasets/fgvc.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "1d7a5606eff0f855ce9298b3df7ff310915a0e719bf61ce631eccafca8601318",
@@ -643,7 +643,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/food101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/food101.py",
+      "destination": "FT/SigLIP/Adam/datasets/food101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "e12661adbbabbb060142ff1feb4c08522ef8dd56b971728515f1a894f313a98e",
@@ -653,7 +653,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/imagenet.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/imagenet.py",
+      "destination": "FT/SigLIP/Adam/datasets/imagenet.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "43bacd42032424d1f6bebfad0bf0879aecaaa6987c8425b56ff3235489e911b6",
@@ -663,7 +663,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/imagenet_a.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/imagenet_a.py",
+      "destination": "FT/SigLIP/Adam/datasets/imagenet_a.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "43a154ef0e05fb33f7615366f8b358810df5b50c64ed5c6f0251b68812dab164",
@@ -673,7 +673,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/imagenet_r.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/imagenet_r.py",
+      "destination": "FT/SigLIP/Adam/datasets/imagenet_r.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "6b4cc6e27eeda3deea19e9319a08064f194216b302acc7d4e034c0c6faf7d39a",
@@ -683,7 +683,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/imagenet_sketch.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/imagenet_sketch.py",
+      "destination": "FT/SigLIP/Adam/datasets/imagenet_sketch.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d6e74c768565dca1e4bd56f7c86bffa25204e7abd2492917f4e2d2775913f385",
@@ -693,7 +693,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/imagenet_v2.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/imagenet_v2.py",
+      "destination": "FT/SigLIP/Adam/datasets/imagenet_v2.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3d8f6dee7673d9d6f587d3cfdf5f604fd0d22a0b7035344dc1f42d3876f1dd7c",
@@ -703,7 +703,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/oxford_flowers.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/oxford_flowers.py",
+      "destination": "FT/SigLIP/Adam/datasets/oxford_flowers.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "a8b0068f136bc6925d50e697034982ec982c1e43d867f5e469899b21e43dc280",
@@ -713,7 +713,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/oxford_pets.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/oxford_pets.py",
+      "destination": "FT/SigLIP/Adam/datasets/oxford_pets.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "c71935091e0b603fdfcf2f1aeb1e564e658b95fddbb56f66830896895b4acc44",
@@ -723,7 +723,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/stanford_cars.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/stanford_cars.py",
+      "destination": "FT/SigLIP/Adam/datasets/stanford_cars.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3920091beafbbc6a0c86bd9a6d22a0f935a1971daeb9f12aceb4057efe6cb936",
@@ -733,7 +733,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/sun397.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/sun397.py",
+      "destination": "FT/SigLIP/Adam/datasets/sun397.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "0f0bcb09debf833f9d6c002dcef2cfa181ba8522682fc33d353bdf83368104c0",
@@ -743,7 +743,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/ucf101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/ucf101.py",
+      "destination": "FT/SigLIP/Adam/datasets/ucf101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "ec5b405de8714535a35666224fe39f4be109998b6c289508060fd356cdd60226",
@@ -753,7 +753,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/datasets/utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/datasets/utils.py",
+      "destination": "FT/SigLIP/Adam/datasets/utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9d2af5161112e35202824eb9236de6df57e6d155b339d4fd1d0e04f8d2ff7ea2",
@@ -763,7 +763,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/environment.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/environment.py",
+      "destination": "FT/SigLIP/Adam/environment.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "e63c66bf06dfcf20fec96443e34cd9d8683c75fe4cdbcb17d7889a4c27e37cf2",
@@ -773,7 +773,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/instrumentation.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/instrumentation.py",
+      "destination": "FT/SigLIP/Adam/instrumentation.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "7b849ea73cfc9d8278f283bc614b2000960a70a234bf8b01ea6f00ca604d6c4a",
@@ -783,17 +783,19 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/main.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/main.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/Adam/main.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "abe9a46857a000e2f51a4c992a9eb43ea359dc2efd58171988b6583bb86256d4",
-      "release_sha256": "abe9a46857a000e2f51a4c992a9eb43ea359dc2efd58171988b6583bb86256d4",
+      "release_sha256": "6ac23abfff89b12ab905486f116261a84d9b936a8511cc639426e92723bea78a",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_Adam/main.py"
     },
     {
       "source": "P5_SigLIP/P5_Adam/metrics.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/metrics.py",
+      "destination": "FT/SigLIP/Adam/metrics.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "b0b88453c7b5553047bdcaf77bcbd1503a8d0c8c2707dc98d531a2d4634ca2fc",
@@ -803,7 +805,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/model_adapter.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/model_adapter.py",
+      "destination": "FT/SigLIP/Adam/model_adapter.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "619307dd1e5680689f6b9196018eb24165efbe4d1e6589756d50714c56c12883",
@@ -813,17 +815,19 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/run_utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/run_utils.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/Adam/run_utils.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "e42746ac9a8d29e07aa8b7f4b5e5d67a0687d41202fb94df2245af5ef7c51afd",
-      "release_sha256": "e42746ac9a8d29e07aa8b7f4b5e5d67a0687d41202fb94df2245af5ef7c51afd",
+      "release_sha256": "967be2768e8357f48fd9a38e7522ee0cbb65f7576e84d7dd8f668f41a31c44b0",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_Adam/run_utils.py"
     },
     {
       "source": "P5_SigLIP/P5_Adam/support_manifest.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/support_manifest.py",
+      "destination": "FT/SigLIP/Adam/support_manifest.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "5992ea0aa49d550e50848bbcc44a49d29adb9c97e058f347520586b89baea1c4",
@@ -847,7 +851,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/tools/stage_dataset.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/tools/stage_dataset.py",
+      "destination": "FT/SigLIP/Adam/tools/stage_dataset.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "865f6ad42b9972f4ca1db96fd7e8b2ee8a4d734a75eba4762b1dc83043844e46",
@@ -857,17 +861,19 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/tools/verify_checkpoint.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/tools/verify_checkpoint.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/Adam/tools/verify_checkpoint.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "1acd43158c546d76ac8b2aeaa23f5277109c30ff901571b3aa144d9ab43a3a02",
-      "release_sha256": "1acd43158c546d76ac8b2aeaa23f5277109c30ff901571b3aa144d9ab43a3a02",
+      "release_sha256": "2e862c1892bccfe5b171eab4e3940d287c19d69212a6e1caae6cf7bf241dcb2d",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_Adam/tools/verify_checkpoint.py"
     },
     {
       "source": "P5_SigLIP/P5_Adam/train.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/train.py",
+      "destination": "FT/SigLIP/Adam/train.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d3448a59f553d8b6196c92e206de337e7527bc85523164c04c565798f94c8ab9",
@@ -877,7 +883,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/trainable_parameters.json",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/trainable_parameters.json",
+      "destination": "FT/SigLIP/Adam/trainable_parameters.json",
       "action": "retained",
       "changes": [],
       "source_sha256": "d7bd370fc5fadd3266b93a02682313210365cd0b5cadd41e45bed5d0c6c4ddcc",
@@ -887,7 +893,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Adam/utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Adam/utils.py",
+      "destination": "FT/SigLIP/Adam/utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "bd7b20ae138374f52070c7a69f98a1a16a976301769a0db7c26d1d471385ab82",
@@ -904,7 +910,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/completion.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/completion.py",
+      "destination": "FT/SigLIP/AdamM0/completion.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "bbcaeabe03e58a8a2d84e8a8be8f066ee09ae0c7d4271bd6074ffb4afad7f0b5",
@@ -914,7 +920,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/__init__.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/__init__.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/__init__.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9c1b9039c4e9da3af4da2ac5086a81903a94f9ae1d87860c78c03c20c44cb590",
@@ -924,7 +930,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/caltech101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/caltech101.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/caltech101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3dd65c11f7dd0b9578721aa0ad95576a39f622bff644fb3645cef8e0a03f6279",
@@ -934,7 +940,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/dtd.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/dtd.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/dtd.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "6400f654ecd3e008d4425d36c83960c400f9fa96a0f6c376f5a8164c47164472",
@@ -944,7 +950,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/eurosat.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/eurosat.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/eurosat.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "36ff672b9ea6ab6dab3c9952e3cd5b940e38e01ba73421e1b250e1f90c733f3d",
@@ -954,7 +960,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/fgvc.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/fgvc.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/fgvc.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "1d7a5606eff0f855ce9298b3df7ff310915a0e719bf61ce631eccafca8601318",
@@ -964,7 +970,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/food101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/food101.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/food101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "e12661adbbabbb060142ff1feb4c08522ef8dd56b971728515f1a894f313a98e",
@@ -974,7 +980,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/imagenet.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/imagenet.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/imagenet.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "43bacd42032424d1f6bebfad0bf0879aecaaa6987c8425b56ff3235489e911b6",
@@ -984,7 +990,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/imagenet_a.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/imagenet_a.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/imagenet_a.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "43a154ef0e05fb33f7615366f8b358810df5b50c64ed5c6f0251b68812dab164",
@@ -994,7 +1000,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/imagenet_r.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/imagenet_r.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/imagenet_r.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "6b4cc6e27eeda3deea19e9319a08064f194216b302acc7d4e034c0c6faf7d39a",
@@ -1004,7 +1010,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/imagenet_sketch.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/imagenet_sketch.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/imagenet_sketch.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d6e74c768565dca1e4bd56f7c86bffa25204e7abd2492917f4e2d2775913f385",
@@ -1014,7 +1020,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/imagenet_v2.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/imagenet_v2.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/imagenet_v2.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3d8f6dee7673d9d6f587d3cfdf5f604fd0d22a0b7035344dc1f42d3876f1dd7c",
@@ -1024,7 +1030,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/oxford_flowers.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/oxford_flowers.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/oxford_flowers.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "a8b0068f136bc6925d50e697034982ec982c1e43d867f5e469899b21e43dc280",
@@ -1034,7 +1040,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/oxford_pets.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/oxford_pets.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/oxford_pets.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "c71935091e0b603fdfcf2f1aeb1e564e658b95fddbb56f66830896895b4acc44",
@@ -1044,7 +1050,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/stanford_cars.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/stanford_cars.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/stanford_cars.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3920091beafbbc6a0c86bd9a6d22a0f935a1971daeb9f12aceb4057efe6cb936",
@@ -1054,7 +1060,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/sun397.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/sun397.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/sun397.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "0f0bcb09debf833f9d6c002dcef2cfa181ba8522682fc33d353bdf83368104c0",
@@ -1064,7 +1070,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/ucf101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/ucf101.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/ucf101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "ec5b405de8714535a35666224fe39f4be109998b6c289508060fd356cdd60226",
@@ -1074,7 +1080,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/datasets/utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/datasets/utils.py",
+      "destination": "FT/SigLIP/AdamM0/datasets/utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9d2af5161112e35202824eb9236de6df57e6d155b339d4fd1d0e04f8d2ff7ea2",
@@ -1084,7 +1090,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/environment.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/environment.py",
+      "destination": "FT/SigLIP/AdamM0/environment.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "e63c66bf06dfcf20fec96443e34cd9d8683c75fe4cdbcb17d7889a4c27e37cf2",
@@ -1094,7 +1100,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/instrumentation.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/instrumentation.py",
+      "destination": "FT/SigLIP/AdamM0/instrumentation.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "7b849ea73cfc9d8278f283bc614b2000960a70a234bf8b01ea6f00ca604d6c4a",
@@ -1104,17 +1110,19 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/main.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/main.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/AdamM0/main.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "abe9a46857a000e2f51a4c992a9eb43ea359dc2efd58171988b6583bb86256d4",
-      "release_sha256": "abe9a46857a000e2f51a4c992a9eb43ea359dc2efd58171988b6583bb86256d4",
+      "release_sha256": "6ac23abfff89b12ab905486f116261a84d9b936a8511cc639426e92723bea78a",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_AdamM0/main.py"
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/metrics.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/metrics.py",
+      "destination": "FT/SigLIP/AdamM0/metrics.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "b0b88453c7b5553047bdcaf77bcbd1503a8d0c8c2707dc98d531a2d4634ca2fc",
@@ -1124,7 +1132,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/model_adapter.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/model_adapter.py",
+      "destination": "FT/SigLIP/AdamM0/model_adapter.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "619307dd1e5680689f6b9196018eb24165efbe4d1e6589756d50714c56c12883",
@@ -1134,17 +1142,19 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/run_utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/run_utils.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/AdamM0/run_utils.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "e42746ac9a8d29e07aa8b7f4b5e5d67a0687d41202fb94df2245af5ef7c51afd",
-      "release_sha256": "e42746ac9a8d29e07aa8b7f4b5e5d67a0687d41202fb94df2245af5ef7c51afd",
+      "release_sha256": "967be2768e8357f48fd9a38e7522ee0cbb65f7576e84d7dd8f668f41a31c44b0",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_AdamM0/run_utils.py"
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/support_manifest.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/support_manifest.py",
+      "destination": "FT/SigLIP/AdamM0/support_manifest.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "5992ea0aa49d550e50848bbcc44a49d29adb9c97e058f347520586b89baea1c4",
@@ -1168,7 +1178,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/tools/stage_dataset.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/tools/stage_dataset.py",
+      "destination": "FT/SigLIP/AdamM0/tools/stage_dataset.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "865f6ad42b9972f4ca1db96fd7e8b2ee8a4d734a75eba4762b1dc83043844e46",
@@ -1178,17 +1188,19 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/tools/verify_checkpoint.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/tools/verify_checkpoint.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/AdamM0/tools/verify_checkpoint.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "1acd43158c546d76ac8b2aeaa23f5277109c30ff901571b3aa144d9ab43a3a02",
-      "release_sha256": "1acd43158c546d76ac8b2aeaa23f5277109c30ff901571b3aa144d9ab43a3a02",
+      "release_sha256": "2e862c1892bccfe5b171eab4e3940d287c19d69212a6e1caae6cf7bf241dcb2d",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_AdamM0/tools/verify_checkpoint.py"
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/train.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/train.py",
+      "destination": "FT/SigLIP/AdamM0/train.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d3448a59f553d8b6196c92e206de337e7527bc85523164c04c565798f94c8ab9",
@@ -1198,7 +1210,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/trainable_parameters.json",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/trainable_parameters.json",
+      "destination": "FT/SigLIP/AdamM0/trainable_parameters.json",
       "action": "retained",
       "changes": [],
       "source_sha256": "d7bd370fc5fadd3266b93a02682313210365cd0b5cadd41e45bed5d0c6c4ddcc",
@@ -1208,7 +1220,7 @@
     },
     {
       "source": "P5_SigLIP/P5_AdamM0/utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_AdamM0/utils.py",
+      "destination": "FT/SigLIP/AdamM0/utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "bd7b20ae138374f52070c7a69f98a1a16a976301769a0db7c26d1d471385ab82",
@@ -1225,7 +1237,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/_plot_common.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/_plot_common.py",
+      "destination": "FT/SigLIP/analysis/_plot_common.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "5361fc2296bc34b6757cd1f530d4d437408426e1e67c76ab4d71f3a18ef0f77a",
@@ -1235,7 +1247,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/aggregate_accuracy.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/aggregate_accuracy.py",
+      "destination": "FT/SigLIP/analysis/aggregate_accuracy.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "8683ff73f845e07cde81e0331b9579a65d108f4cf74558b87edc94e400ab6187",
@@ -1245,7 +1257,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/aggregate_mechanism.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/aggregate_mechanism.py",
+      "destination": "FT/SigLIP/analysis/aggregate_mechanism.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "552db3f17c30f97aff48e1785738f09463c19028a1fdaa023871a40f09dac012",
@@ -1255,7 +1267,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/analysis_common.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/analysis_common.py",
+      "destination": "FT/SigLIP/analysis/analysis_common.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9447c5864285b903bae46017e898dce7c38ec292bbce6a3317a8dfbb060dcd11",
@@ -1265,7 +1277,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/bootstrap.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/bootstrap.py",
+      "destination": "FT/SigLIP/analysis/bootstrap.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "2423f2611abc8a860464caed2c24afa12af646e4e474fe6c548eb1795ce1cf00",
@@ -1275,7 +1287,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/completeness.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/completeness.py",
+      "destination": "FT/SigLIP/analysis/completeness.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "14a19c38542cfcce95e6b1dda83ec267e845b91f82b34d79a2066c11bd2820bb",
@@ -1285,7 +1297,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/hardware_provenance.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/hardware_provenance.py",
+      "destination": "FT/SigLIP/analysis/hardware_provenance.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "751e0ac4b6245f120f40e7794f9de7fbf308ce44371ea00949d3d0dc18f3d6cb",
@@ -1295,7 +1307,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/plot_accuracy_vs_shots.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/plot_accuracy_vs_shots.py",
+      "destination": "FT/SigLIP/analysis/plot_accuracy_vs_shots.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "aaaf5992e3ee81bca3ca40f6a4335014c7e92cbbf70d64fd2a1c9aa0ae40b32d",
@@ -1305,7 +1317,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/plot_budget_ratios.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/plot_budget_ratios.py",
+      "destination": "FT/SigLIP/analysis/plot_budget_ratios.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "6a96ed3f0acaeacde9742cf7cefffe7738f4a06fafa5d2c7772dee38c42a222a",
@@ -1315,7 +1327,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/plot_collapse_ratios.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/plot_collapse_ratios.py",
+      "destination": "FT/SigLIP/analysis/plot_collapse_ratios.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "c1fdc03ef2c83d00982be4ae699ab0e4c7b3c0d45b963c3ce1b6f644667dcab6",
@@ -1325,7 +1337,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/plot_gap_closure.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/plot_gap_closure.py",
+      "destination": "FT/SigLIP/analysis/plot_gap_closure.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "1c4988cbac1693ced41f6b0d63497d3906da18099f6d77a19356dad2c4aeb78f",
@@ -1335,7 +1347,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/plot_initial_miscalibration.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/plot_initial_miscalibration.py",
+      "destination": "FT/SigLIP/analysis/plot_initial_miscalibration.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "85b857074aa479f26f6678b070b9e9c9ed611773791317abe91aedf2569cc355",
@@ -1345,7 +1357,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/plot_optimizer_gaps.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/plot_optimizer_gaps.py",
+      "destination": "FT/SigLIP/analysis/plot_optimizer_gaps.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d0ccf0cbf44f886987036555c3c452e5a88d0e7a4f7a2c0b6352b738a3209d49",
@@ -1369,7 +1381,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Analysis/validate_cross_cluster.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_Analysis/validate_cross_cluster.py",
+      "destination": "FT/SigLIP/analysis/validate_cross_cluster.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "f1d05980983a62b2b1695116749e3cf24096de7f666c8177b51398810659ad17",
@@ -1386,7 +1398,7 @@
     },
     {
       "source": "P5_SigLIP/P5_Checkpoint/checkpoint_manifest.json",
-      "destination": "Rebuttal/P5_SigLIP/P5_Checkpoint/checkpoint_manifest.json",
+      "destination": "FT/SigLIP/checkpoint/checkpoint_manifest.json",
       "action": "modified",
       "changes": [
         "removed local workstation snapshot location; upstream revision/file checksums unchanged"
@@ -1405,7 +1417,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/completion.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/completion.py",
+      "destination": "FT/SigLIP/SGD/completion.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "bbcaeabe03e58a8a2d84e8a8be8f066ee09ae0c7d4271bd6074ffb4afad7f0b5",
@@ -1415,7 +1427,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/__init__.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/__init__.py",
+      "destination": "FT/SigLIP/SGD/datasets/__init__.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9c1b9039c4e9da3af4da2ac5086a81903a94f9ae1d87860c78c03c20c44cb590",
@@ -1425,7 +1437,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/caltech101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/caltech101.py",
+      "destination": "FT/SigLIP/SGD/datasets/caltech101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3dd65c11f7dd0b9578721aa0ad95576a39f622bff644fb3645cef8e0a03f6279",
@@ -1435,7 +1447,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/dtd.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/dtd.py",
+      "destination": "FT/SigLIP/SGD/datasets/dtd.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "6400f654ecd3e008d4425d36c83960c400f9fa96a0f6c376f5a8164c47164472",
@@ -1445,7 +1457,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/eurosat.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/eurosat.py",
+      "destination": "FT/SigLIP/SGD/datasets/eurosat.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "36ff672b9ea6ab6dab3c9952e3cd5b940e38e01ba73421e1b250e1f90c733f3d",
@@ -1455,7 +1467,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/fgvc.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/fgvc.py",
+      "destination": "FT/SigLIP/SGD/datasets/fgvc.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "1d7a5606eff0f855ce9298b3df7ff310915a0e719bf61ce631eccafca8601318",
@@ -1465,7 +1477,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/food101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/food101.py",
+      "destination": "FT/SigLIP/SGD/datasets/food101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "e12661adbbabbb060142ff1feb4c08522ef8dd56b971728515f1a894f313a98e",
@@ -1475,7 +1487,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/imagenet.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/imagenet.py",
+      "destination": "FT/SigLIP/SGD/datasets/imagenet.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "43bacd42032424d1f6bebfad0bf0879aecaaa6987c8425b56ff3235489e911b6",
@@ -1485,7 +1497,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/imagenet_a.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/imagenet_a.py",
+      "destination": "FT/SigLIP/SGD/datasets/imagenet_a.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "43a154ef0e05fb33f7615366f8b358810df5b50c64ed5c6f0251b68812dab164",
@@ -1495,7 +1507,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/imagenet_r.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/imagenet_r.py",
+      "destination": "FT/SigLIP/SGD/datasets/imagenet_r.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "6b4cc6e27eeda3deea19e9319a08064f194216b302acc7d4e034c0c6faf7d39a",
@@ -1505,7 +1517,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/imagenet_sketch.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/imagenet_sketch.py",
+      "destination": "FT/SigLIP/SGD/datasets/imagenet_sketch.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d6e74c768565dca1e4bd56f7c86bffa25204e7abd2492917f4e2d2775913f385",
@@ -1515,7 +1527,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/imagenet_v2.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/imagenet_v2.py",
+      "destination": "FT/SigLIP/SGD/datasets/imagenet_v2.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3d8f6dee7673d9d6f587d3cfdf5f604fd0d22a0b7035344dc1f42d3876f1dd7c",
@@ -1525,7 +1537,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/oxford_flowers.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/oxford_flowers.py",
+      "destination": "FT/SigLIP/SGD/datasets/oxford_flowers.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "a8b0068f136bc6925d50e697034982ec982c1e43d867f5e469899b21e43dc280",
@@ -1535,7 +1547,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/oxford_pets.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/oxford_pets.py",
+      "destination": "FT/SigLIP/SGD/datasets/oxford_pets.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "c71935091e0b603fdfcf2f1aeb1e564e658b95fddbb56f66830896895b4acc44",
@@ -1545,7 +1557,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/stanford_cars.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/stanford_cars.py",
+      "destination": "FT/SigLIP/SGD/datasets/stanford_cars.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3920091beafbbc6a0c86bd9a6d22a0f935a1971daeb9f12aceb4057efe6cb936",
@@ -1555,7 +1567,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/sun397.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/sun397.py",
+      "destination": "FT/SigLIP/SGD/datasets/sun397.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "0f0bcb09debf833f9d6c002dcef2cfa181ba8522682fc33d353bdf83368104c0",
@@ -1565,7 +1577,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/ucf101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/ucf101.py",
+      "destination": "FT/SigLIP/SGD/datasets/ucf101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "ec5b405de8714535a35666224fe39f4be109998b6c289508060fd356cdd60226",
@@ -1575,7 +1587,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/datasets/utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/datasets/utils.py",
+      "destination": "FT/SigLIP/SGD/datasets/utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9d2af5161112e35202824eb9236de6df57e6d155b339d4fd1d0e04f8d2ff7ea2",
@@ -1585,7 +1597,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/environment.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/environment.py",
+      "destination": "FT/SigLIP/SGD/environment.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "e63c66bf06dfcf20fec96443e34cd9d8683c75fe4cdbcb17d7889a4c27e37cf2",
@@ -1595,7 +1607,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/instrumentation.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/instrumentation.py",
+      "destination": "FT/SigLIP/SGD/instrumentation.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "7b849ea73cfc9d8278f283bc614b2000960a70a234bf8b01ea6f00ca604d6c4a",
@@ -1605,17 +1617,19 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/main.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/main.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/SGD/main.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "abe9a46857a000e2f51a4c992a9eb43ea359dc2efd58171988b6583bb86256d4",
-      "release_sha256": "abe9a46857a000e2f51a4c992a9eb43ea359dc2efd58171988b6583bb86256d4",
+      "release_sha256": "6ac23abfff89b12ab905486f116261a84d9b936a8511cc639426e92723bea78a",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_DenseSGD/main.py"
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/metrics.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/metrics.py",
+      "destination": "FT/SigLIP/SGD/metrics.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "b0b88453c7b5553047bdcaf77bcbd1503a8d0c8c2707dc98d531a2d4634ca2fc",
@@ -1625,7 +1639,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/model_adapter.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/model_adapter.py",
+      "destination": "FT/SigLIP/SGD/model_adapter.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "619307dd1e5680689f6b9196018eb24165efbe4d1e6589756d50714c56c12883",
@@ -1635,17 +1649,19 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/run_utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/run_utils.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/SGD/run_utils.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "e42746ac9a8d29e07aa8b7f4b5e5d67a0687d41202fb94df2245af5ef7c51afd",
-      "release_sha256": "e42746ac9a8d29e07aa8b7f4b5e5d67a0687d41202fb94df2245af5ef7c51afd",
+      "release_sha256": "967be2768e8357f48fd9a38e7522ee0cbb65f7576e84d7dd8f668f41a31c44b0",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_DenseSGD/run_utils.py"
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/support_manifest.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/support_manifest.py",
+      "destination": "FT/SigLIP/SGD/support_manifest.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "5992ea0aa49d550e50848bbcc44a49d29adb9c97e058f347520586b89baea1c4",
@@ -1683,17 +1699,19 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/tools/generate_trainable_manifest.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/tools/generate_trainable_manifest.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/SGD/tools/generate_trainable_manifest.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "c2c5adcda4a0142a9776deb1e3c33f0a1743aa1717df6aeb09150cc9a16be701",
-      "release_sha256": "c2c5adcda4a0142a9776deb1e3c33f0a1743aa1717df6aeb09150cc9a16be701",
+      "release_sha256": "9ead2da33e78c510df5266d5266f77bb01673af5b1ac180a664cdaf2ab699db8",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_DenseSGD/tools/generate_trainable_manifest.py"
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/tools/stage_dataset.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/tools/stage_dataset.py",
+      "destination": "FT/SigLIP/SGD/tools/stage_dataset.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "865f6ad42b9972f4ca1db96fd7e8b2ee8a4d734a75eba4762b1dc83043844e46",
@@ -1703,17 +1721,19 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/tools/verify_checkpoint.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/tools/verify_checkpoint.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/SGD/tools/verify_checkpoint.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "1acd43158c546d76ac8b2aeaa23f5277109c30ff901571b3aa144d9ab43a3a02",
-      "release_sha256": "1acd43158c546d76ac8b2aeaa23f5277109c30ff901571b3aa144d9ab43a3a02",
+      "release_sha256": "2e862c1892bccfe5b171eab4e3940d287c19d69212a6e1caae6cf7bf241dcb2d",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_DenseSGD/tools/verify_checkpoint.py"
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/train.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/train.py",
+      "destination": "FT/SigLIP/SGD/train.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d3448a59f553d8b6196c92e206de337e7527bc85523164c04c565798f94c8ab9",
@@ -1723,7 +1743,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/trainable_parameters.json",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/trainable_parameters.json",
+      "destination": "FT/SigLIP/SGD/trainable_parameters.json",
       "action": "retained",
       "changes": [],
       "source_sha256": "d7bd370fc5fadd3266b93a02682313210365cd0b5cadd41e45bed5d0c6c4ddcc",
@@ -1733,7 +1753,7 @@
     },
     {
       "source": "P5_SigLIP/P5_DenseSGD/utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_DenseSGD/utils.py",
+      "destination": "FT/SigLIP/SGD/utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "bd7b20ae138374f52070c7a69f98a1a16a976301769a0db7c26d1d471385ab82",
@@ -1855,7 +1875,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/completion.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/completion.py",
+      "destination": "FT/SigLIP/ZeroShot/completion.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "bbcaeabe03e58a8a2d84e8a8be8f066ee09ae0c7d4271bd6074ffb4afad7f0b5",
@@ -1865,7 +1885,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/__init__.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/__init__.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/__init__.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9c1b9039c4e9da3af4da2ac5086a81903a94f9ae1d87860c78c03c20c44cb590",
@@ -1875,7 +1895,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/caltech101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/caltech101.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/caltech101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3dd65c11f7dd0b9578721aa0ad95576a39f622bff644fb3645cef8e0a03f6279",
@@ -1885,7 +1905,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/dtd.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/dtd.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/dtd.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "6400f654ecd3e008d4425d36c83960c400f9fa96a0f6c376f5a8164c47164472",
@@ -1895,7 +1915,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/eurosat.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/eurosat.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/eurosat.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "36ff672b9ea6ab6dab3c9952e3cd5b940e38e01ba73421e1b250e1f90c733f3d",
@@ -1905,7 +1925,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/fgvc.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/fgvc.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/fgvc.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "1d7a5606eff0f855ce9298b3df7ff310915a0e719bf61ce631eccafca8601318",
@@ -1915,7 +1935,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/food101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/food101.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/food101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "e12661adbbabbb060142ff1feb4c08522ef8dd56b971728515f1a894f313a98e",
@@ -1925,7 +1945,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/imagenet.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/imagenet.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/imagenet.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "43bacd42032424d1f6bebfad0bf0879aecaaa6987c8425b56ff3235489e911b6",
@@ -1935,7 +1955,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/imagenet_a.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/imagenet_a.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/imagenet_a.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "43a154ef0e05fb33f7615366f8b358810df5b50c64ed5c6f0251b68812dab164",
@@ -1945,7 +1965,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/imagenet_r.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/imagenet_r.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/imagenet_r.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "6b4cc6e27eeda3deea19e9319a08064f194216b302acc7d4e034c0c6faf7d39a",
@@ -1955,7 +1975,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/imagenet_sketch.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/imagenet_sketch.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/imagenet_sketch.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d6e74c768565dca1e4bd56f7c86bffa25204e7abd2492917f4e2d2775913f385",
@@ -1965,7 +1985,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/imagenet_v2.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/imagenet_v2.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/imagenet_v2.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3d8f6dee7673d9d6f587d3cfdf5f604fd0d22a0b7035344dc1f42d3876f1dd7c",
@@ -1975,7 +1995,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/oxford_flowers.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/oxford_flowers.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/oxford_flowers.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "a8b0068f136bc6925d50e697034982ec982c1e43d867f5e469899b21e43dc280",
@@ -1985,7 +2005,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/oxford_pets.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/oxford_pets.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/oxford_pets.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "c71935091e0b603fdfcf2f1aeb1e564e658b95fddbb56f66830896895b4acc44",
@@ -1995,7 +2015,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/stanford_cars.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/stanford_cars.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/stanford_cars.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "3920091beafbbc6a0c86bd9a6d22a0f935a1971daeb9f12aceb4057efe6cb936",
@@ -2005,7 +2025,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/sun397.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/sun397.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/sun397.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "0f0bcb09debf833f9d6c002dcef2cfa181ba8522682fc33d353bdf83368104c0",
@@ -2015,7 +2035,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/ucf101.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/ucf101.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/ucf101.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "ec5b405de8714535a35666224fe39f4be109998b6c289508060fd356cdd60226",
@@ -2025,7 +2045,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/datasets/utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/datasets/utils.py",
+      "destination": "FT/SigLIP/ZeroShot/datasets/utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "9d2af5161112e35202824eb9236de6df57e6d155b339d4fd1d0e04f8d2ff7ea2",
@@ -2035,7 +2055,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/environment.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/environment.py",
+      "destination": "FT/SigLIP/ZeroShot/environment.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "e63c66bf06dfcf20fec96443e34cd9d8683c75fe4cdbcb17d7889a4c27e37cf2",
@@ -2045,7 +2065,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/instrumentation.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/instrumentation.py",
+      "destination": "FT/SigLIP/ZeroShot/instrumentation.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "7b849ea73cfc9d8278f283bc614b2000960a70a234bf8b01ea6f00ca604d6c4a",
@@ -2055,17 +2075,19 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/main.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/main.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/ZeroShot/main.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "abe9a46857a000e2f51a4c992a9eb43ea359dc2efd58171988b6583bb86256d4",
-      "release_sha256": "abe9a46857a000e2f51a4c992a9eb43ea359dc2efd58171988b6583bb86256d4",
+      "release_sha256": "6ac23abfff89b12ab905486f116261a84d9b936a8511cc639426e92723bea78a",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_ZeroShot/main.py"
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/metrics.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/metrics.py",
+      "destination": "FT/SigLIP/ZeroShot/metrics.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "b0b88453c7b5553047bdcaf77bcbd1503a8d0c8c2707dc98d531a2d4634ca2fc",
@@ -2075,7 +2097,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/model_adapter.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/model_adapter.py",
+      "destination": "FT/SigLIP/ZeroShot/model_adapter.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "619307dd1e5680689f6b9196018eb24165efbe4d1e6589756d50714c56c12883",
@@ -2085,17 +2107,19 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/run_utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/run_utils.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/ZeroShot/run_utils.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "e42746ac9a8d29e07aa8b7f4b5e5d67a0687d41202fb94df2245af5ef7c51afd",
-      "release_sha256": "e42746ac9a8d29e07aa8b7f4b5e5d67a0687d41202fb94df2245af5ef7c51afd",
+      "release_sha256": "967be2768e8357f48fd9a38e7522ee0cbb65f7576e84d7dd8f668f41a31c44b0",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_ZeroShot/run_utils.py"
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/support_manifest.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/support_manifest.py",
+      "destination": "FT/SigLIP/ZeroShot/support_manifest.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "5992ea0aa49d550e50848bbcc44a49d29adb9c97e058f347520586b89baea1c4",
@@ -2119,7 +2143,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/tools/stage_dataset.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/tools/stage_dataset.py",
+      "destination": "FT/SigLIP/ZeroShot/tools/stage_dataset.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "865f6ad42b9972f4ca1db96fd7e8b2ee8a4d734a75eba4762b1dc83043844e46",
@@ -2129,17 +2153,19 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/tools/verify_checkpoint.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/tools/verify_checkpoint.py",
-      "action": "retained",
-      "changes": [],
+      "destination": "FT/SigLIP/ZeroShot/tools/verify_checkpoint.py",
+      "action": "modified",
+      "changes": [
+        "optimizer-directory and checkpoint paths aligned with repository layout"
+      ],
       "source_sha256": "1acd43158c546d76ac8b2aeaa23f5277109c30ff901571b3aa144d9ab43a3a02",
-      "release_sha256": "1acd43158c546d76ac8b2aeaa23f5277109c30ff901571b3aa144d9ab43a3a02",
+      "release_sha256": "2e862c1892bccfe5b171eab4e3940d287c19d69212a6e1caae6cf7bf241dcb2d",
       "source_archive": "21-P5_SigLIP_all_results.zip",
       "source_member": "SigLIP/P5_ZeroShot/tools/verify_checkpoint.py"
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/train.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/train.py",
+      "destination": "FT/SigLIP/ZeroShot/train.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "d3448a59f553d8b6196c92e206de337e7527bc85523164c04c565798f94c8ab9",
@@ -2149,7 +2175,7 @@
     },
     {
       "source": "P5_SigLIP/P5_ZeroShot/utils.py",
-      "destination": "Rebuttal/P5_SigLIP/P5_ZeroShot/utils.py",
+      "destination": "FT/SigLIP/ZeroShot/utils.py",
       "action": "retained",
       "changes": [],
       "source_sha256": "bd7b20ae138374f52070c7a69f98a1a16a976301769a0db7c26d1d471385ab82",

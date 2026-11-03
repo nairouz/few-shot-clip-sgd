@@ -30,15 +30,15 @@ def variant_from_directory(
     resolved = Path(path or __file__).resolve()
     name = resolved.name if resolved.is_dir() else resolved.parent.name
     variants = {
-        "P5_ZeroShot": "zero-shot",
-        "P5_DenseSGD": "sgd",
-        "P5_Adam": "adam",
-        "P5_AdamM0": "adam-m0",
+        "ZeroShot": "zero-shot",
+        "SGD": "sgd",
+        "Adam": "adam",
+        "AdamM0": "adam-m0",
     }
     try:
         return variants[name]
     except KeyError as exc:
-        raise RuntimeError(f"Unrecognized standalone P5 directory: {name}") from exc
+        raise RuntimeError(f"Unrecognized SigLIP optimizer directory: {name}") from exc
 
 
 def set_random_seed(seed: int) -> None:
