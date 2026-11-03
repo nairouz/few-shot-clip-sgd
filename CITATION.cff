@@ -5,10 +5,6 @@ type: software
 authors:
   - family-names: Mrabah
     given-names: Nairouz
-  - family-names: Ben Ayed
-    given-names: Ismail
-  - family-names: Granger
-    given-names: Éric
 preferred-citation:
   type: conference-paper
   title: "Full Fine-Tuning is not the Problem: Why Adam Fails and SGD Succeeds in Few-Shot CLIP Adaptation"
