@@ -1,0 +1,16 @@
+# Dependencies inferred from the supplied imports; not an original environment lockfile.
+# A compatible torch/torchvision pair is required for the local CUDA installation.
+torch
+torchvision
+numpy
+Pillow
+scipy
+tqdm
+ftfy
+regex
+gdown
+matplotlib
+pandas
+pytorch-optimizer
+tensorly
+transformers

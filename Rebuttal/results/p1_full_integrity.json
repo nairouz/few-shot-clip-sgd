@@ -1,0 +1,52 @@
+{
+  "archive": "28-P1_Adam_M0_and_Mt_Global_full_results-1-.zip",
+  "archive_sha256": "ba6129444c5bc26844d394a8fe0b10048b143cf1471b0878023741056928d3a2",
+  "runs": 300,
+  "runs_per_variant": {
+    "P1_Adam_M0": 150,
+    "P1_Adam_Mt_Global": 150
+  },
+  "datasets": [
+    "caltech101",
+    "dtd",
+    "eurosat",
+    "fgvc",
+    "food101",
+    "oxford_flowers",
+    "oxford_pets",
+    "stanford_cars",
+    "sun397",
+    "ucf101"
+  ],
+  "shots": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "manifest_hashes_checked": 2100,
+  "all_DONE_success": true,
+  "all_final_epochs": 30,
+  "maximum_summary_epoch30_error": 1.4210854715202004e-14,
+  "exact_support_equal_pairs": 150,
+  "root_normalized_support_equal_pairs": 150,
+  "same_common_config_pairs": 150,
+  "same_git_sha_pairs": 150,
+  "git_shas": [
+    "06e0e89efab963532cec081e972c88fdfed97a7d"
+  ],
+  "macro_Adam_M0": 78.91930402004118,
+  "macro_Adam_Mt": 77.68751575912584,
+  "macro_Mt_minus_M0": -1.231788260915337,
+  "Mt_wins": 37,
+  "Mt_ties": 1,
+  "Mt_losses": 112,
+  "reference_SGD_or_raw_Adam_run_count": 0,
+  "hash_limitation": "DONE records hash support/reference/prototype manifests, not every output. All 7 sidecar hashes per run verified; ZIP read CRC verifies payload storage. Summary hashes generated in independent audit are recorded for reproducibility."
+}

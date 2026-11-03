@@ -1,0 +1,13 @@
+estimand,estimate,ci95_low,ci95_high,bootstrap_units,n_units,n_resamples,pairing
+SGD final accuracy,74.93106769636006,58.38679441315215,88.86464244565724,dataset,6,20000,optimizer values paired within dataset x shots x seed
+Adam final accuracy,14.50845660470148,6.196572871134689,22.947696279657265,dataset,6,20000,optimizer values paired within dataset x shots x seed
+Adam-M0 final accuracy,76.02801164881527,59.64720767847732,89.64487280162656,dataset,6,20000,optimizer values paired within dataset x shots x seed
+SGD - Adam final accuracy (pp),60.42261109165858,47.38074140828935,73.2632216485892,dataset,6,20000,optimizer values paired within dataset x shots x seed
+SGD - Adam-M0 final accuracy (pp),-1.0969439524552058,-1.9636181364256515,-0.3255512214802678,dataset,6,20000,optimizer values paired within dataset x shots x seed
+Adam-M0 signed gap recovered (%),101.81545274630912,100.54286850580768,103.42826573412668,dataset,6,20000,optimizer values paired within dataset x shots x seed
+SGD final accuracy,74.93106769636006,67.4241165018767,81.88774074345594,dataset_shot_sensitivity,30,20000,optimizer values paired within dataset x shots x seed
+Adam final accuracy,14.50845660470148,9.039059174969328,20.84273156518659,dataset_shot_sensitivity,30,20000,optimizer values paired within dataset x shots x seed
+Adam-M0 final accuracy,76.02801164881527,68.83976853148016,82.78723313087166,dataset_shot_sensitivity,30,20000,optimizer values paired within dataset x shots x seed
+SGD - Adam final accuracy (pp),60.42261109165858,53.121389278652096,67.62989929606637,dataset_shot_sensitivity,30,20000,optimizer values paired within dataset x shots x seed
+SGD - Adam-M0 final accuracy (pp),-1.0969439524552058,-1.9512237349085613,-0.4928871204082518,dataset_shot_sensitivity,30,20000,optimizer values paired within dataset x shots x seed
+Adam-M0 signed gap recovered (%),101.81545274630912,100.78282328042044,103.3524442086316,dataset_shot_sensitivity,30,20000,optimizer values paired within dataset x shots x seed

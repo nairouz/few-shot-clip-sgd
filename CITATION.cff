@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the NeurIPS 2026 paper when using this work."
+title: "Full Fine-Tuning is not the Problem: Why Adam Fails and SGD Succeeds in Few-Shot CLIP Adaptation"
+type: software
+authors:
+  - family-names: Mrabah
+    given-names: Nairouz
+  - family-names: Ben Ayed
+    given-names: Ismail
+  - family-names: Granger
+    given-names: Éric
+preferred-citation:
+  type: conference-paper
+  title: "Full Fine-Tuning is not the Problem: Why Adam Fails and SGD Succeeds in Few-Shot CLIP Adaptation"
+  authors:
+    - family-names: Mrabah
+      given-names: Nairouz
+    - family-names: Ben Ayed
+      given-names: Ismail
+    - family-names: Granger
+      given-names: Éric
+  collection-title: Advances in Neural Information Processing Systems
+  year: 2026

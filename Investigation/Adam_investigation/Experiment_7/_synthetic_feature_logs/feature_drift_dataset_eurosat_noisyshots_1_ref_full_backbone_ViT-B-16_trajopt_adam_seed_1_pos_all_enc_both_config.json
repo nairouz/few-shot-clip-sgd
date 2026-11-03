@@ -1,0 +1,1 @@
+{"dataset": "eurosat", "shots": 1, "backbone": "ViT-B/16", "position": "all", "encoder": "both", "ref_mode": "full_train", "traj_optimizer": "ADAM"}

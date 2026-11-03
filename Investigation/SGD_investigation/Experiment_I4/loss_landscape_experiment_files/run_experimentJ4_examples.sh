@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+COMMON_ARGS=(
+  --shots 1
+  --backbone ViT-B/16
+  --position all
+  --encoder both
+  --lr 1e-4
+  --max_epochs 30
+  --full_support_train
+  --checkpoint_updates 0,1,2,5,10,20,30
+  --budget_protocol update_example_matched
+  --out_dir ./results_without_aug/experimentJ4_logs
+)
+
+python loss_landscape_experiment_files/measure_experimentJ_noise_scale.py \
+  --dataset eurosat \
+  --device cuda:0 \
+  --run_name experimentJ_dataset_eurosat_shots_1_backbone_ViT-B-16_opt_sgd_seed_1_pos_all_enc_both_budget_update_examples \
+  "${COMMON_ARGS[@]}"
+
+python loss_landscape_experiment_files/plot_experimentJ_noise_scale.py \
+  --logdir ./results_without_aug/experimentJ4_logs \
+  --run_name experimentJ_dataset_eurosat_shots_1_backbone_ViT-B-16_opt_sgd_seed_1_pos_all_enc_both_budget_update_examples \
+  --outdir ./results_without_aug/experimentJ4_plots/experimentJ_dataset_eurosat_shots_1_backbone_ViT-B-16_opt_sgd_seed_1_pos_all_enc_both_budget_update_examples
+
+python loss_landscape_experiment_files/measure_experimentJ_noise_scale.py \
+  --dataset oxford_pets \
+  --device cuda:1 \
+  --run_name experimentJ_dataset_oxford_pets_shots_1_backbone_ViT-B-16_opt_sgd_seed_1_pos_all_enc_both_budget_update_examples \
+  "${COMMON_ARGS[@]}"
+
+python loss_landscape_experiment_files/plot_experimentJ_noise_scale.py \
+  --logdir ./results_without_aug/experimentJ4_logs \
+  --run_name experimentJ_dataset_oxford_pets_shots_1_backbone_ViT-B-16_opt_sgd_seed_1_pos_all_enc_both_budget_update_examples \
+  --outdir ./results_without_aug/experimentJ4_plots/experimentJ_dataset_oxford_pets_shots_1_backbone_ViT-B-16_opt_sgd_seed_1_pos_all_enc_both_budget_update_examples
+
+python loss_landscape_experiment_files/measure_experimentJ_noise_scale.py \
+  --dataset dtd \
+  --device cuda:2 \
+  --run_name experimentJ_dataset_dtd_shots_1_backbone_ViT-B-16_opt_sgd_seed_1_pos_all_enc_both_budget_update_examples \
+  "${COMMON_ARGS[@]}"
+
+python loss_landscape_experiment_files/plot_experimentJ_noise_scale.py \
+  --logdir ./results_without_aug/experimentJ4_logs \
+  --run_name experimentJ_dataset_dtd_shots_1_backbone_ViT-B-16_opt_sgd_seed_1_pos_all_enc_both_budget_update_examples \
+  --outdir ./results_without_aug/experimentJ4_plots/experimentJ_dataset_dtd_shots_1_backbone_ViT-B-16_opt_sgd_seed_1_pos_all_enc_both_budget_update_examples

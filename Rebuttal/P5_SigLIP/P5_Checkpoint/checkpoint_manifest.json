@@ -1,0 +1,98 @@
+{
+  "hub_repository_id": "google/siglip-base-patch16-224",
+  "immutable_revision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed",
+  "transformers_version": "4.52.4",
+  "huggingface_hub_version": "0.32.1",
+  "sentencepiece_version": "0.2.2",
+  "model_config": {
+    "architectures": [
+      "SiglipModel"
+    ],
+    "initializer_factor": 1.0,
+    "model_type": "siglip",
+    "text_config": {
+      "hidden_size": 768,
+      "intermediate_size": 3072,
+      "max_position_embeddings": 64,
+      "model_type": "siglip_text_model",
+      "num_attention_heads": 12,
+      "num_hidden_layers": 12,
+      "projection_size": 768,
+      "vocab_size": 32000
+    },
+    "torch_dtype": "float32",
+    "vision_config": {
+      "hidden_size": 768,
+      "image_size": 224,
+      "intermediate_size": 3072,
+      "model_type": "siglip_vision_model",
+      "num_attention_heads": 12,
+      "num_hidden_layers": 12,
+      "patch_size": 16
+    }
+  },
+  "image_size": 224,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_standard_deviation": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_resample": "PIL.Image.Resampling.BICUBIC",
+  "text_maximum_length": 64,
+  "model_parameter_count": 203155970,
+  "vision_tower_parameter_count": 92884224,
+  "text_tower_parameter_count": 110271744,
+  "trainable_transformer_block_parameter_count": 170108928,
+  "trainable_vision_block_parameter_count": 85054464,
+  "trainable_text_block_parameter_count": 85054464,
+  "logit_scale_parameter_value": 4.7649970054626465,
+  "logit_scale_value": 117.33076477050781,
+  "logit_bias_value": -12.9324369430542,
+  "files": [
+    {
+      "path": "config.json",
+      "bytes": 432,
+      "sha256": "cd85b3d28829722820bcb89a2cfbb4160e55fd359249a3044da724166a8d9688"
+    },
+    {
+      "path": "model.safetensors",
+      "bytes": 812672320,
+      "sha256": "2c63cb7d1f2e95ba501893cbb8faeb4ea9a3af295498d35097126228659c2af8"
+    },
+    {
+      "path": "pytorch_model.bin",
+      "bytes": 812762989,
+      "sha256": "eb93f7f526b0a1b0e5f0612630f142bc5b6c05d329edff70478ff0a83e2bcd6e"
+    },
+    {
+      "path": "preprocessor_config.json",
+      "bytes": 368,
+      "sha256": "d11ccb80f15d358a11bdb070e92e2d889005874b7db15823d5f10d9b2533b14a"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "bytes": 409,
+      "sha256": "2b6a1ff67a27e0df9ac0c7d93250fc0d87431c7b366b3d5669217104f9088a26"
+    },
+    {
+      "path": "spiece.model",
+      "bytes": 798330,
+      "sha256": "1e5036bed065526c3c212dfbe288752391797c4bb1a284aa18c9a0b23fcaf8ec"
+    },
+    {
+      "path": "tokenizer.json",
+      "bytes": 2399357,
+      "sha256": "c6e405cb7c670d56636a9402c81023a55bc6c3c53d89cf02b92f5c5005bfe920"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "bytes": 711,
+      "sha256": "d6423dae508cc3a129d22ea443841c111832a1a73125b8f25ea8736951698bcb"
+    }
+  ]
+}
