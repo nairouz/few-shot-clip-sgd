@@ -18,6 +18,6 @@ python main.py --dataset eurosat --shots 1 --seed 1 \
 
 ## Analysis
 
-The [`analysis/`](analysis/) scripts aggregate generated training runs and produce shot-scaling plots. Their input and output paths are explicit command-line arguments. The [results guide](../../docs/RESULTS.md) describes the numerical exports in `results/inputs/` and the table calculations in `scripts/analysis/`, both relative to the repository root.
+The [`analysis/`](analysis/) scripts aggregate generated training runs and produce shot-scaling plots. Their input and output paths are explicit command-line arguments. The [analysis guide](../../docs/ANALYSIS.md) describes table calculations from local result exports. Experimental result files are not included.
 
 [Dataset preparation](../../docs/DATASETS.md) specifies the image and split layouts. The CLIP loader requires pretrained weights and downloads them when absent from its cache.

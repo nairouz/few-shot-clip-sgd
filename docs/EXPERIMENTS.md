@@ -1,6 +1,6 @@
 # Diagnostic experiments
 
-The optimizer and geometry diagnostics are grouped under `Investigation/`. Each directory contains its measurement code and local CLIP and dataset modules. [Shot scaling](../Investigation/ShotScaling/README.md) and [SigLIP adaptation](../FT/SigLIP/README.md) combine training comparisons with preconditioning diagnostics. The [results guide](RESULTS.md) links their numerical exports and table-generation commands.
+The optimizer and geometry diagnostics are grouped under `Investigation/`. Each directory contains its measurement code and local CLIP and dataset modules. [Shot scaling](../Investigation/ShotScaling/README.md) and [SigLIP adaptation](../FT/SigLIP/README.md) combine training comparisons with preconditioning diagnostics. The [analysis guide](ANALYSIS.md) describes aggregation and table generation from local outputs.
 
 ## Experiment index
 

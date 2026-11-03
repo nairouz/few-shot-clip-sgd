@@ -5,7 +5,7 @@
 École de technologie supérieure, Montréal  
 **NeurIPS 2026**
 
-[Reproduction guide](docs/REPRODUCING.md) · [Dataset preparation](docs/DATASETS.md) · [Diagnostic experiments](docs/EXPERIMENTS.md) · [Results and tables](docs/RESULTS.md) · [Citation](#citation)
+[Reproduction guide](docs/REPRODUCING.md) · [Dataset preparation](docs/DATASETS.md) · [Diagnostic experiments](docs/EXPERIMENTS.md) · [Analysis utilities](docs/ANALYSIS.md) · [Citation](#citation)
 
 This repository provides the code for our study of optimizer behavior in few-shot CLIP adaptation. Across **11 datasets**, **three CLIP backbones**, and **five shot levels**, SGD supports effective dense adaptation and outperforms the representative PEFT methods evaluated in the paper under the reported evaluation protocol.
 
@@ -20,7 +20,7 @@ This repository provides the code for our study of optimizer behavior in few-sho
 - **First-step budget matching provides a direct intervention.** Matching Adam's initial update norm to SGD resolves most of the observed collapse.
 - **SGD preserves useful pretrained structure.** Its trajectories remain close to initialization and follow broad, connected regions of low loss and curvature.
 
-The implementation covers full fine-tuning baselines, 13 PEFT methods, zero-shot evaluation, shot-scaling experiments, SigLIP adaptation, and 20 optimizer and geometry diagnostics. Numerical exports and table-generation scripts accompany the experiments. The main benchmark trains dense attention and MLP weight matrices in both CLIP encoders. Exact trainable scope and execution details are documented in the [reproduction guide](docs/REPRODUCING.md).
+The implementation covers full fine-tuning baselines, 13 PEFT methods, zero-shot evaluation, shot-scaling experiments, SigLIP adaptation, and 20 optimizer and geometry diagnostics. Analysis scripts accompany the experiments. Experimental result files and generated tables are not included in the repository. The main benchmark trains dense attention and MLP weight matrices in both CLIP encoders. Exact trainable scope and execution details are documented in the [reproduction guide](docs/REPRODUCING.md).
 
 ## Installation
 
@@ -62,8 +62,7 @@ The launcher forwards experiment arguments to the supplied implementation. `--dr
 | `Investigation/Adam_investigation/` | Second-moment calibration, counterfactual denominators, budget matching, and representation drift |
 | `Investigation/SGD_investigation/` | Interpolation, directional curvature, block sensitivity, connectivity, drift, and stochasticity controls |
 | [`Investigation/ShotScaling/`](Investigation/ShotScaling/README.md) | CLIP shot scaling with SGD, Adam, and Adam-M0 |
-| [`results/`](results/) | Per-run numerical exports and generated tables |
-| [`scripts/analysis/`](scripts/analysis/) | Reproducible aggregation and manuscript-table generation |
+| [`scripts/analysis/`](scripts/analysis/) | Aggregation and manuscript-table generation from local result exports |
 | `scripts/` | Portable experiment launcher and source validation |
 | `docs/` | Protocol, dataset, experiment, and result documentation |
 
@@ -79,7 +78,7 @@ The launcher forwards experiment arguments to the supplied implementation. `--dr
 | Robustness grid | 0.01, 0.001, 0.0001, 0.00001 |
 | Datasets | ImageNet, SUN397, FGVC-Aircraft, EuroSAT, StanfordCars, Food101, OxfordPets, OxfordFlowers, Caltech101, DTD, UCF101 |
 
-The [experiment index](docs/EXPERIMENTS.md) links the shot-scaling, SigLIP, long-horizon, and diagnostic configurations. The [results guide](docs/RESULTS.md) describes the numerical exports and commands that reproduce the tables.
+The [experiment index](docs/EXPERIMENTS.md) links the shot-scaling, SigLIP, long-horizon, and diagnostic configurations. The [analysis guide](docs/ANALYSIS.md) describes the scripts for processing locally generated outputs.
 
 ## Citation
 

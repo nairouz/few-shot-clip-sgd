@@ -1,2 +1,0 @@
-estimand,estimate,ci95_low,ci95_high,resamples,cluster,n_datasets,n_paired_runs,bootstrap_seed
-Adam-Mt minus Adam-M0 fixed-epoch30 accuracy,-1.2317882609153368,-2.0199507121624682,-0.4737180818334613,20000,dataset,10,150,20261103

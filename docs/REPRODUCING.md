@@ -2,7 +2,7 @@
 
 ## Implementations
 
-The main CLIP benchmark, shot-scaling experiments, SigLIP adaptation, and optimizer diagnostics have distinct entry points and configurations. [EXPERIMENTS.md](EXPERIMENTS.md) and [RESULTS.md](RESULTS.md) connect the training code, numerical exports, and table calculations. In `FT/SGD/train.py` and `FT/Adam/train.py`, `mark_as_trainable` activates attention weight matrices and the two MLP weight matrices of the selected transformer blocks. With `--encoder both --position all`, these matrices are trained in every block of both encoders. Biases, normalization parameters, embeddings, final projection matrices, and logit scale remain frozen. This is the precise implementation of dense transformer-weight adaptation used by these entry points.
+The main CLIP benchmark, shot-scaling experiments, SigLIP adaptation, and optimizer diagnostics have distinct entry points and configurations. [EXPERIMENTS.md](EXPERIMENTS.md) and [ANALYSIS.md](ANALYSIS.md) describe the training code and local analysis workflows. In `FT/SGD/train.py` and `FT/Adam/train.py`, `mark_as_trainable` activates attention weight matrices and the two MLP weight matrices of the selected transformer blocks. With `--encoder both --position all`, these matrices are trained in every block of both encoders. Biases, normalization parameters, embeddings, final projection matrices, and logit scale remain frozen. This is the precise implementation of dense transformer-weight adaptation used by these entry points.
 
 The SGD entry point constructs `torch.optim.SGD` with its default zero momentum and zero weight decay. The Adam entry point uses `torch.optim.Adam`. The three AdamW directories encode weight decay in their names. The methods retain their individual argument parsers and training loops.
 
@@ -64,7 +64,7 @@ An isolated run contains `run_command.json`, `console.log`, the implementation's
 
 [Shot scaling](../Investigation/ShotScaling/README.md) uses SGD, Adam, and Adam-M0 across six datasets and five shot levels. [SigLIP adaptation](../FT/SigLIP/README.md) provides separate SGD, Adam, Adam-M0, and zero-shot entry points with a pinned local model snapshot. These experiment-specific parsers are documented in their guides.
 
-The numerical inputs are in [`results/inputs/`](../results/inputs/). The [table-generation commands](RESULTS.md) read these files and write [`results/generated/`](../results/generated/). Training-run output directories remain separate from those curated inputs and tables.
+Experimental result files and generated tables are not distributed with the code. The [analysis guide](ANALYSIS.md) describes the local inputs expected by the table-generation scripts. The `results/` directory is ignored by Git.
 
 ## Source checks
 

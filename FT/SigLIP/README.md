@@ -40,4 +40,4 @@ python FT/SigLIP/SGD/main.py \
 
 The corresponding entry points for the other conditions are `FT/SigLIP/Adam/main.py`, `FT/SigLIP/AdamM0/main.py`, and `FT/SigLIP/ZeroShot/main.py`. Each parser exposes its options through `--help`. Training uses dense transformer-block adaptation, native SigLIP preprocessing, and fixed epoch-30 evaluation. The nominal batch size is 64.
 
-The accuracy grid covers EuroSAT, FGVC-Aircraft, DTD, and Oxford-Pets at 1, 4, and 16 shots with seeds 1–3. Mechanism diagnostics cover EuroSAT and DTD at 1 and 16 shots. The [results guide](../../docs/RESULTS.md) links the numerical exports and table-generation scripts. [Dataset preparation](../../docs/DATASETS.md) specifies the image and split layouts.
+The accuracy grid covers EuroSAT, FGVC-Aircraft, DTD, and Oxford-Pets at 1, 4, and 16 shots with seeds 1–3. Mechanism diagnostics cover EuroSAT and DTD at 1 and 16 shots. The [analysis guide](../../docs/ANALYSIS.md) describes local aggregation and table generation. Experimental result files are not included. [Dataset preparation](../../docs/DATASETS.md) specifies the image and split layouts.

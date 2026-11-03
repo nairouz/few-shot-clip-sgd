@@ -5,6 +5,8 @@ import pandas as pd
 ROOT=Path(__file__).resolve().parents[2]
 B=ROOT/'results/inputs'
 O=ROOT/'results/generated'
+if not B.is_dir():
+    raise SystemExit(f"Local result exports are required in {B}. Experimental results are not bundled; input requirements are documented in docs/ANALYSIS.md.")
 O.mkdir(parents=True,exist_ok=True)
 NAMES={'eurosat':'EuroSAT','fgvc':'FGVC-Aircraft','dtd':'DTD','oxford_pets':'Oxford-Pets','caltech101':'Caltech101','stanford_cars':'Stanford-Cars'}
 ORDER=['eurosat','oxford_pets','dtd','fgvc','stanford_cars','caltech101']

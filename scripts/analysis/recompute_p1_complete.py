@@ -9,6 +9,8 @@ ROOT = Path(__file__).resolve().parents[2]
 INPUT = ROOT / 'results/inputs'
 OUTPUT = ROOT / 'results/generated'
 ROWS = OUTPUT / 'manuscript_rows'
+if not INPUT.is_dir():
+    raise SystemExit(f"Local result exports are required in {INPUT}. Experimental results are not bundled; input requirements are documented in docs/ANALYSIS.md.")
 OUTPUT.mkdir(parents=True, exist_ok=True)
 ROWS.mkdir(parents=True, exist_ok=True)
 

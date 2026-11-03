@@ -3,6 +3,8 @@ import hashlib,json
 import pandas as pd,numpy as np
 ROOT=Path(__file__).resolve().parents[2]
 T=ROOT/'results/inputs'; Q=ROOT/'results/generated'; O=Q/'manuscript_rows'
+if not T.is_dir():
+    raise SystemExit(f"Local result exports are required in {T}. Experimental results are not bundled; input requirements are documented in docs/ANALYSIS.md.")
 O.mkdir(parents=True,exist_ok=True)
 manifest=[]
 def write_new(name,content,sources,columns,notes):

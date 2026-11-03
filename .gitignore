@@ -8,12 +8,6 @@ venv/
 .DS_Store
 .ipynb_checkpoints/
 results/
-!/results/
-/results/*
-!/results/inputs/
-!/results/generated/
-!/results/input_sha256.json
-!/results/p1_full_integrity.json
 results_with_aug/
 results_without_aug/
 models/
