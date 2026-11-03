@@ -7,7 +7,7 @@
 
 [Reproduction guide](docs/REPRODUCING.md) · [Dataset preparation](docs/DATASETS.md) · [Diagnostic experiments](docs/EXPERIMENTS.md) · [Supplementary tables](Rebuttal/README.md) · [Citation](#citation)
 
-This repository provides the code for our study of optimizer behavior in few-shot CLIP adaptation. Across **11 datasets**, **three CLIP backbones**, and **five shot levels**, SGD supports effective dense adaptation and outperforms the representative PEFT methods evaluated in the paper under the common training protocol.
+This repository provides the code for our study of optimizer behavior in few-shot CLIP adaptation. Across **11 datasets**, **three CLIP backbones**, and **five shot levels**, SGD supports effective dense adaptation and outperforms the representative PEFT methods evaluated in the paper under the reported evaluation protocol.
 
 ![Average accuracy of SGD, SGD with momentum, and Adam across 11 datasets](assets/sgd_vs_adam.png)
 
@@ -71,7 +71,7 @@ The launcher forwards experiment arguments to the supplied implementation. `--dr
 | Backbones | CLIP ViT-B/16, ViT-B/32, ViT-L/14 |
 | Shots per class | 1, 2, 4, 8, 16 |
 | Seeds | 1, 2, 3 |
-| Training | 30 epochs; batch size 64 |
+| Dense benchmark training | 30 epochs; batch size 64 |
 | Main learning rate | 0.0001 |
 | Robustness grid | 0.01, 0.001, 0.0001, 0.00001 |
 | Datasets | ImageNet, SUN397, FGVC-Aircraft, EuroSAT, StanfordCars, Food101, OxfordPets, OxfordFlowers, Caltech101, DTD, UCF101 |
