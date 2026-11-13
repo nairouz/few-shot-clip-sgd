@@ -1,7 +1,7 @@
 # Full Fine-Tuning is not the Problem
 ## Why Adam Fails and SGD Succeeds in Few-Shot CLIP Adaptation
 
-**Nairouz Mrabah · Ismail Ben Ayed · Éric Granger**  
+**Nairouz Mrabah · Ismail Ben Ayed · Eric Granger**  
 École de technologie supérieure, Montréal  
 **NeurIPS 2026**
 
